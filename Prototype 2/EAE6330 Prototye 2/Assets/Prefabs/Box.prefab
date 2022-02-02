@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4098769945555677425}
   - component: {fileID: 8451261464984994569}
   - component: {fileID: 2466738568410808870}
+  - component: {fileID: 2539910495033876609}
   m_Layer: 9
   m_Name: Box
   m_TagString: Untagged
@@ -145,3 +146,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arriveTargetColor: {r: 0, g: 1, b: 0.19509149, a: 1}
+--- !u!114 &2539910495033876609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6743253308608693388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acd7932be1143f0419111d50b38f71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
