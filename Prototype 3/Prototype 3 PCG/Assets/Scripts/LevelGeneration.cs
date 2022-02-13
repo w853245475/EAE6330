@@ -6,6 +6,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Using Flyweight Pattern To Record Terrain Type
+/// </summary>
+public class TerrainType
+{
+    public string name;
+    public float threshold;
+    public Color color;
+    public int index;
+    //public Texture2D terrainTexture;
+
+    public TerrainType(string i_name, float i_threshold, Color i_color, int i_index)
+    {
+        this.name = i_name;
+        this.threshold = i_threshold;
+        this.color = i_color;
+        this.index = i_index;
+    }
+}
+
 public class LevelData
 {
     private int tileDepthInVertices, tileWidthInVertices;
@@ -62,8 +82,40 @@ public class LevelGeneration : MonoBehaviour
 
     [SerializeField]
     private GameObject tilePrefab;
+
+    private TerrainType[] terrainTypes = new TerrainType[5];
+
+    private TerrainType[] temperatureTerrainTypes = new TerrainType[3];
+
+    /// <summary>
+    /// Private Terrain References
+    /// </summary>
+    private TerrainType water = new TerrainType("Water", 0.3f, new Color32(10, 209, 254, 99), 0);
+    private TerrainType sand = new TerrainType("Sand", 0.4f, new Color32(255, 250, 147, 100), 1);
+    private TerrainType grass = new TerrainType("Grass", 0.6f, new Color32(0, 196, 43, 77), 2);
+    private TerrainType mountain = new TerrainType("Mountain", 0.7f, new Color32(143, 91, 1, 56), 3);
+    private TerrainType snow = new TerrainType("Snow", 0.9f, new Color32(183, 255, 249, 100), 4);
+
+    /// <summary>
+    /// Temperature TerrainTypes
+    /// </summary>
+    private TerrainType hot = new TerrainType("Hot", 0.3f, new Color32(255, 97, 44, 100), 2);
+    private TerrainType warm = new TerrainType("Warm", 0.5f, new Color32(255, 206, 104, 100), 1);
+    private TerrainType cold = new TerrainType("Cold", 0.9f, new Color32(137, 255, 245, 100), 0);
+
+
     void Start()
     {
+        terrainTypes[0] = water;
+        terrainTypes[1] = sand;
+        terrainTypes[2] = grass;
+        terrainTypes[3] = mountain;
+        terrainTypes[4] = snow;
+
+        temperatureTerrainTypes[0] = hot;
+        temperatureTerrainTypes[1] = warm;
+        temperatureTerrainTypes[2] = cold;
+
         GenerateMap();
     }
     void GenerateMap()
@@ -98,7 +150,7 @@ public class LevelGeneration : MonoBehaviour
 
 
                 // generate the Tile texture and save it in the levelData
-                TileData tileData = tile.GetComponent<TileGeneration>().GenerateTile(56, 56);
+                TileData tileData = tile.GetComponent<TileGeneration>().GenerateTile(56, 56, terrainTypes, temperatureTerrainTypes);
                 levelData.AddTileData(tileData, zTileIndex, xTileIndex);
             }
         }

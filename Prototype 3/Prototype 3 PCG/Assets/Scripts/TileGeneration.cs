@@ -7,27 +7,32 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[System.Serializable]
-public class TerrainType
-{
-    public string name;
-    public float threshold;
-    public Color color;
-    public int index;
-    public Texture terrainTexture;
-}
+//[System.Serializable]
+//public class TerrainType
+//{
+//    public string name;
+//    public float threshold;
+//    public Color color;
+//    public int index;
+//    //public Texture2D terrainTexture;
 
-[System.Serializable]
-public class Biome
-{
-    public string name;
-    public Color color;
-}
-[System.Serializable]
-public class BiomeRow
-{
-    public Biome[] biomes;
-}
+//    public TerrainType()
+//    {
+
+//    }
+//}
+
+//[System.Serializable]
+//public class Biome
+//{
+//    public string name;
+//    public Color color;
+//}
+//[System.Serializable]
+//public class BiomeRow
+//{
+//    public Biome[] biomes;
+//}
 
 
 enum VisualizationMode { Height, Heat, Biome }
@@ -36,31 +41,28 @@ public class TileData
 {
     public float[,] heightMap;
     public float[,] heatMap;
-    public TerrainType[,] chosenHeightTerrainTypes;
-    public TerrainType[,] chosenHeatTerrainTypes;
+    public TerrainType[,] heightTerrainTypes;
+    public TerrainType[,] heatTerrainTypes;
     public Mesh mesh;
     public TileData(float[,] heightMap, float[,] heatMap,
-      TerrainType[,] chosenHeightTerrainTypes, TerrainType[,] chosenHeatTerrainTypes,
+      TerrainType[,] i_HeightTerrainTypes, TerrainType[,] i_HeatTerrainTypes,
       Mesh mesh)
     {
         this.heightMap = heightMap;
         this.heatMap = heatMap;
-        this.chosenHeightTerrainTypes = chosenHeightTerrainTypes;
-        this.chosenHeatTerrainTypes = chosenHeatTerrainTypes;
+        this.heightTerrainTypes = i_HeightTerrainTypes;
+        this.heatTerrainTypes = i_HeatTerrainTypes;
         this.mesh = mesh;
     }
 }
 
 public class TileGeneration : MonoBehaviour
 {
-    [SerializeField]
-    private Biome[] biomes;
+
+    private TerrainType[] terrianTypes = new TerrainType[5];
 
     [SerializeField]
-    private TerrainType[] terrianTypes;
-
-    [SerializeField]
-    private TerrainType[] heatTerrainTypes;
+    private TerrainType[] heatTerrainTypes = new TerrainType[3];
 
     [SerializeField]
     private VisualizationMode visualizationMode;
@@ -90,16 +92,14 @@ public class TileGeneration : MonoBehaviour
     private AnimationCurve heatCurve;
 
     [SerializeField]
-    private Color waterColor;
-
-    [SerializeField]
     private Wave[] waveSeeds;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        GenerateTile(56,56);    
+
+        //GenerateTile(56,56, );    
     }
 
     // Update is called once per frame
@@ -135,13 +135,14 @@ public class TileGeneration : MonoBehaviour
         this.meshCollider.sharedMesh = this.meshFilter.mesh;
     }
 
-    public TileData GenerateTile(float centerVertexZ, float maxDistanceZ)
+    public TileData GenerateTile(float centerVertexZ, float maxDistanceZ, TerrainType[] i_terrainTypes, TerrainType[] i_temperatureTerrainTypes)
     {
-        // calculate tile depth and width based on the mesh vertices
+        System.Array.Copy(i_terrainTypes, terrianTypes, i_terrainTypes.Length);
+        System.Array.Copy(i_temperatureTerrainTypes, heatTerrainTypes, i_temperatureTerrainTypes.Length);
+
         Vector3[] meshVertices = this.meshFilter.mesh.vertices;
         int tileDepth = (int)Mathf.Sqrt(meshVertices.Length);
         int tileWidth = tileDepth;
-
 
         // calculate the offsets based on the tile position
         float offsetX = -this.gameObject.transform.position.x;
@@ -172,6 +173,7 @@ public class TileGeneration : MonoBehaviour
         }
 
 
+
         // build a Texture2D from the height map
         TerrainType[,] chosenHeightTerrainTypes = new TerrainType[tileDepth, tileWidth];
         Texture2D heightTexture = BuildTexture(heightMap, this.terrianTypes, chosenHeightTerrainTypes);
@@ -200,25 +202,26 @@ public class TileGeneration : MonoBehaviour
 
     private Texture2D BuildTexture(float[,] heightMap, TerrainType[] i_terrainTypes, TerrainType[,] i_chosenTerrainTypes)
     {
+
         int tileDepth = heightMap.GetLength(0);
         int tileWidth = heightMap.GetLength(1);
+
         Color[] colorMap = new Color[tileDepth * tileWidth];
         for (int zIndex = 0; zIndex < tileDepth; zIndex++)
         {
             for (int xIndex = 0; xIndex < tileWidth; xIndex++)
             {
-                // transform the 2D map index is an Array index
                 int colorIndex = zIndex * tileWidth + xIndex;
                 float height = heightMap[zIndex, xIndex];
-                // choose a terrain type according to the height value
-                TerrainType terrainType = ChooseTerrainType(height, i_terrainTypes);
-                // assign the color according to the terrain type
+
+                TerrainType terrainType = SelectTerrainType(height, i_terrainTypes);
+
                 colorMap[colorIndex] = terrainType.color;
 
                 i_chosenTerrainTypes[zIndex, xIndex] = terrainType;
             }
         }
-        // create a new texture and set its pixel colors
+
         Texture2D tileTexture = new Texture2D(tileWidth, tileDepth);
         tileTexture.wrapMode = TextureWrapMode.Clamp;
         tileTexture.SetPixels(colorMap);
@@ -226,56 +229,16 @@ public class TileGeneration : MonoBehaviour
         return tileTexture;
     }
 
-    TerrainType ChooseTerrainType(float height, TerrainType[] i_terrainTypes)
+    TerrainType SelectTerrainType(float height, TerrainType[] i_terrainTypes)
     {
-        // for each terrain type, check if the height is lower than the one for the terrain type
         foreach (TerrainType terrainType in i_terrainTypes)
         {
-            // return the first terrain type whose height is higher than the generated one
             if (height < terrainType.threshold)
             {
                 return terrainType;
             }
         }
         return i_terrainTypes[i_terrainTypes.Length - 1];
-    }
 
-    private Texture2D BuildBiomeTexture(TerrainType[,] heightTerrainTypes, TerrainType[,] heatTerrainTypes, TerrainType[,] moistureTerrainTypes)
-    {
-        int tileDepth = heatTerrainTypes.GetLength(0);
-        int tileWidth = heatTerrainTypes.GetLength(1);
-        Color[] colorMap = new Color[tileDepth * tileWidth];
-        for (int zIndex = 0; zIndex < tileDepth; zIndex++)
-        {
-            for (int xIndex = 0; xIndex < tileWidth; xIndex++)
-            {
-                int colorIndex = zIndex * tileWidth + xIndex;
-                TerrainType heightTerrainType = heightTerrainTypes[zIndex, xIndex];
-                // check if the current coordinate is a water region
-                if (heightTerrainType.name != "water")
-                {
-                    // if a coordinate is not water, its biome will be defined by the heat and moisture values
-                    TerrainType heatTerrainType = heatTerrainTypes[zIndex, xIndex];
-                    TerrainType moistureTerrainType = moistureTerrainTypes[zIndex, xIndex];
-                    // terrain type index is used to access the biomes table
-                    //Biome biome = this.biomes[moistureTerrainType.index].biomes[heatTerrainType.index];
-                    Biome biome = this.biomes[heatTerrainType.index];
-                    // assign the color according to the selected biome
-                    colorMap[colorIndex] = biome.color;
-                }
-                else
-                {
-                    // water regions don't have biomes, they always have the same color
-                    colorMap[colorIndex] = this.waterColor;
-                }
-            }
-        }
-        // create a new texture and set its pixel colors
-        Texture2D tileTexture = new Texture2D(tileWidth, tileDepth);
-        tileTexture.filterMode = FilterMode.Point;
-        tileTexture.wrapMode = TextureWrapMode.Clamp;
-        tileTexture.SetPixels(colorMap);
-        tileTexture.Apply();
-        return tileTexture;
     }
 }

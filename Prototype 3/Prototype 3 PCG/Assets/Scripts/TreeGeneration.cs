@@ -4,11 +4,11 @@
 
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class TreeGeneration : MonoBehaviour
 {
-
     [SerializeField]
     private NoiseMap noiseMapGeneration;
     [SerializeField]
@@ -19,6 +19,11 @@ public class TreeGeneration : MonoBehaviour
     private float neighborRadius;
     [SerializeField]
     private GameObject treePrefab;
+    [SerializeField]
+    private GameObject snowTreePrefab;
+    [SerializeField]
+    private GameObject[] junglesPrefab;
+
     public void GenerateTrees(int levelDepth, int levelWidth, float distanceBetweenVertices, LevelData levelData)
     {
         // generate a tree noise map using Perlin Noise
@@ -37,7 +42,7 @@ public class TreeGeneration : MonoBehaviour
                 Vector3[] meshVertices = tileData.mesh.vertices;
                 int vertexIndex = tileCoordinate.coordinateZIndex * tileWidth + tileCoordinate.coordinateXIndex;
                 // get the terrain type of this coordinate
-                TerrainType terrainType = tileData.chosenHeightTerrainTypes[tileCoordinate.coordinateZIndex, tileCoordinate.coordinateXIndex];
+                TerrainType terrainType = tileData.heightTerrainTypes[tileCoordinate.coordinateZIndex, tileCoordinate.coordinateXIndex];
                 // check if it is a water terrain. Trees cannot be placed over the water
                 if (terrainType.name != "Water")
                 {
@@ -64,9 +69,31 @@ public class TreeGeneration : MonoBehaviour
                     // if the current tree noise value is the maximum one, place a tree in this location
                     if (treeValue == maxValue)
                     {
-                        Vector3 treePosition = new Vector3(xIndex * distanceBetweenVertices - 4.1f, meshVertices[vertexIndex].y - 0.05f, zIndex * distanceBetweenVertices - 4.4f);
-                        GameObject tree = Instantiate(this.treePrefab, treePosition, Quaternion.identity) as GameObject;
-                        tree.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
+                        if(terrainType.name == "Snow")
+                        {
+                            Vector3 treePosition = new Vector3(xIndex * distanceBetweenVertices - 4.1f, meshVertices[vertexIndex].y - 0.15f, zIndex * distanceBetweenVertices - 4.9f);
+                            GameObject tree = Instantiate(this.snowTreePrefab, treePosition, Quaternion.identity) as GameObject;
+                            tree.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+                        }
+                        else if(terrainType.name == "Sand")
+                        {
+
+                        }
+                        else
+                        {
+                            Vector3 treePosition = new Vector3(xIndex * distanceBetweenVertices - 4.1f, meshVertices[vertexIndex].y - 0.05f, zIndex * distanceBetweenVertices - 4.9f);
+                            GameObject tree = Instantiate(this.treePrefab, treePosition, Quaternion.identity) as GameObject;
+                            tree.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
+
+                            for(int i = 0; i < (int)Random.Range(1, 3); i++)
+                            {
+                                Vector3 junglePosition = new Vector3(xIndex * distanceBetweenVertices - 4.1f + Random.Range(0.1f, 1), meshVertices[vertexIndex].y - 0.05f, zIndex * distanceBetweenVertices - 4.9f + Random.Range(0.1f, 1));
+                                GameObject jungle = Instantiate(this.junglesPrefab[(int)Random.Range(0, junglesPrefab.Length - 1)], junglePosition, Quaternion.identity) as GameObject;
+                                jungle.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+                            }
+                            
+                        }
+                        
                     }
                 }
             }
