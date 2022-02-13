@@ -133,6 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 381320516}
   - component: {fileID: 381320515}
+  - component: {fileID: 381320517}
+  - component: {fileID: 381320518}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -152,6 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e1519914746a8f4cb2ba70da8bcceb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  treeGeneration: {fileID: 381320517}
   mapWidthInTiles: 10
   mapDepthInTiles: 10
   tilePrefab: {fileID: 2045620365895333407, guid: 232c5c5b055133d4d8301631f8e497f1, type: 3}
@@ -169,6 +172,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &381320517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381320514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291b3a96b3aa0774ea563c6cfb093c3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noiseMapGeneration: {fileID: 381320518}
+  waves:
+  - seed: 6666
+    frequency: 1
+    amplitude: 1
+  - seed: 8888
+    frequency: 2
+    amplitude: 2
+  - seed: 1616
+    frequency: 3
+    amplitude: 3
+  levelScale: 6
+  neighborRadius: 1
+  treePrefab: {fileID: 1743542827347818, guid: 58cd80e8735394b41ad92a2458c90f9a, type: 3}
+--- !u!114 &381320518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381320514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e942a64737ad54e94a4827778b1ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &598858569
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,6 +14,7 @@ public class TerrainType
     public float threshold;
     public Color color;
     public int index;
+    public Texture terrainTexture;
 }
 
 [System.Serializable]
@@ -35,21 +36,17 @@ public class TileData
 {
     public float[,] heightMap;
     public float[,] heatMap;
-    public float[,] moistureMap;
     public TerrainType[,] chosenHeightTerrainTypes;
     public TerrainType[,] chosenHeatTerrainTypes;
-    public TerrainType[,] chosenMoistureTerrainTypes;
     public Mesh mesh;
-    public TileData(float[,] heightMap, float[,] heatMap, float[,] moistureMap,
-      TerrainType[,] chosenHeightTerrainTypes, TerrainType[,] chosenHeatTerrainTypes, TerrainType[,] chosenMoistureTerrainTypes,
+    public TileData(float[,] heightMap, float[,] heatMap,
+      TerrainType[,] chosenHeightTerrainTypes, TerrainType[,] chosenHeatTerrainTypes,
       Mesh mesh)
     {
         this.heightMap = heightMap;
         this.heatMap = heatMap;
-        this.moistureMap = moistureMap;
         this.chosenHeightTerrainTypes = chosenHeightTerrainTypes;
         this.chosenHeatTerrainTypes = chosenHeatTerrainTypes;
-        this.chosenMoistureTerrainTypes = chosenMoistureTerrainTypes;
         this.mesh = mesh;
     }
 }
@@ -61,9 +58,6 @@ public class TileGeneration : MonoBehaviour
 
     [SerializeField]
     private TerrainType[] terrianTypes;
-
-    [SerializeField]
-    private TerrainType[] heightTerrainTypes;
 
     [SerializeField]
     private TerrainType[] heatTerrainTypes;
@@ -91,6 +85,9 @@ public class TileGeneration : MonoBehaviour
 
     [SerializeField]
     private AnimationCurve heightCurve;
+
+    [SerializeField]
+    private AnimationCurve heatCurve;
 
     [SerializeField]
     private Color waterColor;
@@ -138,27 +135,50 @@ public class TileGeneration : MonoBehaviour
         this.meshCollider.sharedMesh = this.meshFilter.mesh;
     }
 
-    public void GenerateTile(float centerVertexZ, float maxDistanceZ)
+    public TileData GenerateTile(float centerVertexZ, float maxDistanceZ)
     {
         // calculate tile depth and width based on the mesh vertices
         Vector3[] meshVertices = this.meshFilter.mesh.vertices;
         int tileDepth = (int)Mathf.Sqrt(meshVertices.Length);
         int tileWidth = tileDepth;
+
+
         // calculate the offsets based on the tile position
         float offsetX = -this.gameObject.transform.position.x;
         float offsetZ = -this.gameObject.transform.position.z;
+
         // generate a heightMap using Perlin Noise
         float[,] heightMap = this.noiseMap.GenerateMap(tileDepth, tileWidth, this.mapScale, offsetX, offsetZ, waveSeeds);
+        
         // calculate vertex offset based on the Tile position and the distance between vertices
         Vector3 tileDimensions = this.meshFilter.mesh.bounds.size;
         float distanceBetweenVertices = tileDimensions.z / (float)tileDepth;
         float vertexOffsetZ = this.gameObject.transform.position.z / distanceBetweenVertices;
+
         // generate a heatMap using uniform noise
-        float[,] heatMap = this.noiseMap.GenerateUniformNoiseMap(tileDepth, tileWidth, centerVertexZ, maxDistanceZ, vertexOffsetZ);
+        float[,] uniformHeatMap = this.noiseMap.GenerateUniformNoiseMap(tileDepth, tileWidth, centerVertexZ, maxDistanceZ, vertexOffsetZ);
+        // generate a heatMap using Perlin Noise
+        float[,] randomHeatMap = this.noiseMap.GenerateMap(tileDepth, tileWidth, this.mapScale, offsetX, offsetZ, this.waveSeeds);
+        float[,] heatMap = new float[tileDepth, tileWidth];
+        for (int zIndex = 0; zIndex < tileDepth; zIndex++)
+        {
+            for (int xIndex = 0; xIndex < tileWidth; xIndex++)
+            {
+                // mix both heat maps together by multiplying their values
+                heatMap[zIndex, xIndex] = uniformHeatMap[zIndex, xIndex] * randomHeatMap[zIndex, xIndex];
+                // makes higher regions colder, by adding the height value to the heat map
+                heatMap[zIndex, xIndex] += this.heatCurve.Evaluate(heightMap[zIndex, xIndex]) * heightMap[zIndex, xIndex];
+            }
+        }
+
+
         // build a Texture2D from the height map
-        Texture2D heightTexture = BuildTexture(heightMap, this.heightTerrainTypes);
+        TerrainType[,] chosenHeightTerrainTypes = new TerrainType[tileDepth, tileWidth];
+        Texture2D heightTexture = BuildTexture(heightMap, this.terrianTypes, chosenHeightTerrainTypes);
         // build a Texture2D from the heat map
-        Texture2D heatTexture = BuildTexture(heatMap, this.heatTerrainTypes);
+        TerrainType[,] chosenHeatTerrainTypes = new TerrainType[tileDepth, tileWidth];
+        Texture2D heatTexture = BuildTexture(heatMap, this.heatTerrainTypes, chosenHeatTerrainTypes);
+
         switch (this.visualizationMode)
         {
             case VisualizationMode.Height:
@@ -172,9 +192,13 @@ public class TileGeneration : MonoBehaviour
         }
         // update the tile mesh vertices according to the height map
         UpdateMeshVertices(heightMap);
+
+        TileData tileData = new TileData(heightMap, heatMap, chosenHeightTerrainTypes, chosenHeatTerrainTypes, this.meshFilter.sharedMesh);
+
+        return tileData;
     }
 
-    private Texture2D BuildTexture(float[,] heightMap, TerrainType[] i_terrainTypes)
+    private Texture2D BuildTexture(float[,] heightMap, TerrainType[] i_terrainTypes, TerrainType[,] i_chosenTerrainTypes)
     {
         int tileDepth = heightMap.GetLength(0);
         int tileWidth = heightMap.GetLength(1);
@@ -190,6 +214,8 @@ public class TileGeneration : MonoBehaviour
                 TerrainType terrainType = ChooseTerrainType(height, i_terrainTypes);
                 // assign the color according to the terrain type
                 colorMap[colorIndex] = terrainType.color;
+
+                i_chosenTerrainTypes[zIndex, xIndex] = terrainType;
             }
         }
         // create a new texture and set its pixel colors
