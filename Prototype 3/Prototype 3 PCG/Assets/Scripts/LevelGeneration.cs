@@ -6,6 +6,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+
 /// <summary>
 /// Using Flyweight Pattern To Record Terrain Type
 /// </summary>
@@ -74,6 +77,11 @@ public class TileCoordinate
 
 public class LevelGeneration : MonoBehaviour
 {
+    static Wave[] waveSeeds = new Wave[3];
+    public static Wave wave1;
+    public static Wave wave2;
+    public static Wave wave3;
+
     [SerializeField]
     private TreeGeneration treeGeneration;
 
@@ -116,6 +124,9 @@ public class LevelGeneration : MonoBehaviour
         temperatureTerrainTypes[1] = warm;
         temperatureTerrainTypes[2] = cold;
 
+        waveSeeds[0] = wave1;
+        waveSeeds[1] = wave2;
+        waveSeeds[2] = wave3;
         GenerateMap();
     }
     void GenerateMap()
@@ -155,6 +166,6 @@ public class LevelGeneration : MonoBehaviour
             }
         }
 
-        treeGeneration.GenerateTrees(this.mapDepthInTiles * tileDepthInVertices, this.mapWidthInTiles * tileWidthInVertices, distanceBetweenVertices, levelData);
+        treeGeneration.SpawnObjects(this.mapDepthInTiles * tileDepthInVertices, this.mapWidthInTiles * tileWidthInVertices, distanceBetweenVertices, levelData);
     }
 }

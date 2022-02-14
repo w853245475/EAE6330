@@ -23,9 +23,14 @@ public class TreeGeneration : MonoBehaviour
     private GameObject snowTreePrefab;
     [SerializeField]
     private GameObject[] junglesPrefab;
+    [SerializeField]
+    private GameObject[] stonePrefab;
+    [SerializeField]
+    private GameObject pineTree;
 
-    public void GenerateTrees(int levelDepth, int levelWidth, float distanceBetweenVertices, LevelData levelData)
+    public void SpawnObjects(int levelDepth, int levelWidth, float distanceBetweenVertices, LevelData levelData)
     {
+
         // generate a tree noise map using Perlin Noise
         float[,] treeMap = this.noiseMapGeneration.GenerateMap(levelDepth, levelWidth, levelScale, 0, 0, this.waves);
         float levelSizeX = levelWidth * distanceBetweenVertices;
@@ -79,19 +84,30 @@ public class TreeGeneration : MonoBehaviour
                         {
 
                         }
-                        else
+                        else if(terrainType.name == "Grass")
                         {
-                            Vector3 treePosition = new Vector3(xIndex * distanceBetweenVertices - 4.1f, meshVertices[vertexIndex].y - 0.05f, zIndex * distanceBetweenVertices - 4.9f);
-                            GameObject tree = Instantiate(this.treePrefab, treePosition, Quaternion.identity) as GameObject;
-                            tree.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
+                            Vector3 treePosition = new Vector3(xIndex * distanceBetweenVertices - 4.6f, meshVertices[vertexIndex].y - 0.2f, zIndex * distanceBetweenVertices - 4.15f);
 
-                            for(int i = 0; i < (int)Random.Range(1, 3); i++)
+                            //TreeInstance1 tree = new TreeInstance1(treePosition, new Vector3(0.05f, 0.05f, 0.05f), pineTree);
+
+                            Instantiate(this.pineTree, treePosition, Quaternion.identity).transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
+
+                            //GameObject tree = Instantiate(this.pineTree, treePosition, Quaternion.identity) as GameObject;
+                            //tree.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
+
+
+                            for (int i = 0; i < (int)Random.Range(1, 3); i++)
                             {
-                                Vector3 junglePosition = new Vector3(xIndex * distanceBetweenVertices - 4.1f + Random.Range(0.1f, 1), meshVertices[vertexIndex].y - 0.05f, zIndex * distanceBetweenVertices - 4.9f + Random.Range(0.1f, 1));
+                                Vector3 junglePosition = new Vector3(xIndex * distanceBetweenVertices - 4.1f + Random.Range(0.1f, 0.2f), meshVertices[vertexIndex].y - 0.1f, zIndex * distanceBetweenVertices - 4.9f + Random.Range(0.1f, 0.2f));
                                 GameObject jungle = Instantiate(this.junglesPrefab[(int)Random.Range(0, junglesPrefab.Length - 1)], junglePosition, Quaternion.identity) as GameObject;
                                 jungle.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
                             }
-                            
+
+                        }
+                        else if(terrainType.name == "Mountain")
+                        {
+
+
                         }
                         
                     }

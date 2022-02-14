@@ -99,7 +99,6 @@ public class TileGeneration : MonoBehaviour
     void Start()
     {
 
-        //GenerateTile(56,56, );    
     }
 
     // Update is called once per frame
