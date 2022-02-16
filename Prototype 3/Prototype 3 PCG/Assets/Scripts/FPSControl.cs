@@ -6,6 +6,8 @@ public class FPSControl : MonoBehaviour
 {
     [SerializeField]
     private float speed = 3.5f;
+    [SerializeField]
+    private Canvas UI;
 
     public float sensitivity = 10f;
     public float maxYAngle = 80f;
@@ -24,7 +26,6 @@ public class FPSControl : MonoBehaviour
         currentRotation.y -= Input.GetAxis("Mouse Y") * sensitivity;
         currentRotation.x = Mathf.Repeat(currentRotation.x, 360);
         currentRotation.y = Mathf.Clamp(currentRotation.y, -maxYAngle, maxYAngle);
-        //Camera.main.transform.rotation = Quaternion.Euler(currentRotation.y, currentRotation.x, 0);
         transform.rotation = Quaternion.Euler(currentRotation.y, currentRotation.x, 0);
 
         float horizontalAxis = Input.GetAxis("Horizontal");
@@ -41,21 +42,32 @@ public class FPSControl : MonoBehaviour
             speed = 3.5f;
         }
 
-        if(Input.GetKeyDown(KeyCode.F))
-        {
-            if (GetComponent<Rigidbody>().useGravity)
-                GetComponent<Rigidbody>().useGravity = false;
-            else
-                GetComponent<Rigidbody>().useGravity = true;
-        }
+
 
 
         if(Input.GetKey(KeyCode.Space))
         {
-            if(!GetComponent<Rigidbody>().useGravity)
-                transform.Translate(0.0f,  speed * Time.deltaTime, 0.0f);
+            transform.Translate(0.0f,  speed * Time.deltaTime, 0.0f);
         }
 
+        if(Input.GetKeyDown(KeyCode.O))
+        {
+            if (UI.enabled)
+                UI.enabled = false;
+            else
+                UI.enabled = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        print(collision.gameObject);
     }
 
 }

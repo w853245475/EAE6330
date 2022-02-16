@@ -7,35 +7,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-//[System.Serializable]
-//public class TerrainType
-//{
-//    public string name;
-//    public float threshold;
-//    public Color color;
-//    public int index;
-//    //public Texture2D terrainTexture;
-
-//    public TerrainType()
-//    {
-
-//    }
-//}
-
-//[System.Serializable]
-//public class Biome
-//{
-//    public string name;
-//    public Color color;
-//}
-//[System.Serializable]
-//public class BiomeRow
-//{
-//    public Biome[] biomes;
-//}
-
-
-enum VisualizationMode { Height, Heat, Biome }
+enum VisualizationMode { Height, Heat}
 
 public class TileData
 {
@@ -91,8 +63,8 @@ public class TileGeneration : MonoBehaviour
     [SerializeField]
     private AnimationCurve heatCurve;
 
-    [SerializeField]
-    private Wave[] waveSeeds;
+    //[SerializeField]
+    //private Wave[] waveSeeds;
 
 
     // Start is called before the first frame update
@@ -113,7 +85,6 @@ public class TileGeneration : MonoBehaviour
         int tileDepth = heightMap.GetLength(0);
         int tileWidth = heightMap.GetLength(1);
         Vector3[] meshVertices = this.meshFilter.mesh.vertices;
-        // iterate through all the heightMap coordinates, updating the vertex index
         int vertexIndex = 0;
         for (int zIndex = 0; zIndex < tileDepth; zIndex++)
         {
@@ -121,16 +92,13 @@ public class TileGeneration : MonoBehaviour
             {
                 float height = heightMap[zIndex, xIndex];
                 Vector3 vertex = meshVertices[vertexIndex];
-                // change the vertex Y coordinate, proportional to the height value
                 meshVertices[vertexIndex] = new Vector3(vertex.x, this.heightCurve.Evaluate(height) * this.heightMultiplier, vertex.z);
                 vertexIndex++;
             }
         }
-        // update the vertices in the mesh and update its properties
         this.meshFilter.mesh.vertices = meshVertices;
         this.meshFilter.mesh.RecalculateBounds();
         this.meshFilter.mesh.RecalculateNormals();
-        // update the mesh collider
         this.meshCollider.sharedMesh = this.meshFilter.mesh;
     }
 
@@ -143,55 +111,44 @@ public class TileGeneration : MonoBehaviour
         int tileDepth = (int)Mathf.Sqrt(meshVertices.Length);
         int tileWidth = tileDepth;
 
-        // calculate the offsets based on the tile position
         float offsetX = -this.gameObject.transform.position.x;
         float offsetZ = -this.gameObject.transform.position.z;
 
-        // generate a heightMap using Perlin Noise
-        float[,] heightMap = this.noiseMap.GenerateMap(tileDepth, tileWidth, this.mapScale, offsetX, offsetZ, waveSeeds);
+        print(LevelGeneration.waveSeeds[0].seed);
+        float[,] heightMap = this.noiseMap.GenerateMap(tileDepth, tileWidth, this.mapScale, offsetX, offsetZ, LevelGeneration.waveSeeds);
         
-        // calculate vertex offset based on the Tile position and the distance between vertices
         Vector3 tileDimensions = this.meshFilter.mesh.bounds.size;
         float distanceBetweenVertices = tileDimensions.z / (float)tileDepth;
         float vertexOffsetZ = this.gameObject.transform.position.z / distanceBetweenVertices;
 
-        // generate a heatMap using uniform noise
         float[,] uniformHeatMap = this.noiseMap.GenerateUniformNoiseMap(tileDepth, tileWidth, centerVertexZ, maxDistanceZ, vertexOffsetZ);
-        // generate a heatMap using Perlin Noise
-        float[,] randomHeatMap = this.noiseMap.GenerateMap(tileDepth, tileWidth, this.mapScale, offsetX, offsetZ, this.waveSeeds);
+        float[,] randomHeatMap = this.noiseMap.GenerateMap(tileDepth, tileWidth, this.mapScale, offsetX, offsetZ, LevelGeneration.waveSeeds);
         float[,] heatMap = new float[tileDepth, tileWidth];
         for (int zIndex = 0; zIndex < tileDepth; zIndex++)
         {
             for (int xIndex = 0; xIndex < tileWidth; xIndex++)
             {
-                // mix both heat maps together by multiplying their values
                 heatMap[zIndex, xIndex] = uniformHeatMap[zIndex, xIndex] * randomHeatMap[zIndex, xIndex];
-                // makes higher regions colder, by adding the height value to the heat map
                 heatMap[zIndex, xIndex] += this.heatCurve.Evaluate(heightMap[zIndex, xIndex]) * heightMap[zIndex, xIndex];
             }
         }
 
 
 
-        // build a Texture2D from the height map
         TerrainType[,] chosenHeightTerrainTypes = new TerrainType[tileDepth, tileWidth];
         Texture2D heightTexture = BuildTexture(heightMap, this.terrianTypes, chosenHeightTerrainTypes);
-        // build a Texture2D from the heat map
         TerrainType[,] chosenHeatTerrainTypes = new TerrainType[tileDepth, tileWidth];
         Texture2D heatTexture = BuildTexture(heatMap, this.heatTerrainTypes, chosenHeatTerrainTypes);
 
         switch (this.visualizationMode)
         {
             case VisualizationMode.Height:
-                // assign material texture to be the heightTexture
                 this.meshRender.material.mainTexture = heightTexture;
                 break;
             case VisualizationMode.Heat:
-                // assign material texture to be the heatTexture
                 this.meshRender.material.mainTexture = heatTexture;
                 break;
         }
-        // update the tile mesh vertices according to the height map
         UpdateMeshVertices(heightMap);
 
         TileData tileData = new TileData(heightMap, heatMap, chosenHeightTerrainTypes, chosenHeatTerrainTypes, this.meshFilter.sharedMesh);

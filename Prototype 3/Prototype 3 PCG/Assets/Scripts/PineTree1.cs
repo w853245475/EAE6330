@@ -39,7 +39,6 @@ public class PineTree1 : MonoBehaviour
     {
         GetComponent<MeshFilter>().mesh = treeMesh;
 
-        //meshFilter.mesh = treeMesh;
 
         Material[] mats = GetComponent<MeshRenderer>().materials;
 

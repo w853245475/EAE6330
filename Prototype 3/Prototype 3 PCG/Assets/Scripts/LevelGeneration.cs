@@ -35,24 +35,19 @@ public class LevelData
     public TileData[,] tilesData;
     public LevelData(int tileDepthInVertices, int tileWidthInVertices, int levelDepthInTiles, int levelWidthInTiles)
     {
-        // build the tilesData matrix based on the level depth and width
         tilesData = new TileData[tileDepthInVertices * levelDepthInTiles, tileWidthInVertices * levelWidthInTiles];
         this.tileDepthInVertices = tileDepthInVertices;
         this.tileWidthInVertices = tileWidthInVertices;
     }
     public void AddTileData(TileData tileData, int tileZIndex, int tileXIndex)
     {
-        // save the TileData in the corresponding coordinate
         tilesData[tileZIndex, tileXIndex] = tileData;
     }
 
     public TileCoordinate ConvertToTileCoordinate(int zIndex, int xIndex)
     {
-        // the tile index is calculated by dividing the index by the number of tiles in that axis
         int tileZIndex = (int)Mathf.Floor((float)zIndex / (float)this.tileDepthInVertices);
         int tileXIndex = (int)Mathf.Floor((float)xIndex / (float)this.tileWidthInVertices);
-        // the coordinate index is calculated by getting the remainder of the division above
-        // we also need to translate the origin to the bottom left corner
         int coordinateZIndex = this.tileDepthInVertices - (zIndex % this.tileDepthInVertices) - 1;
         int coordinateXIndex = this.tileWidthInVertices - (xIndex % this.tileDepthInVertices) - 1;
         TileCoordinate tileCoordinate = new TileCoordinate(tileZIndex, tileXIndex, coordinateZIndex, coordinateXIndex);
@@ -77,13 +72,22 @@ public class TileCoordinate
 
 public class LevelGeneration : MonoBehaviour
 {
-    static Wave[] waveSeeds = new Wave[3];
-    public static Wave wave1;
-    public static Wave wave2;
-    public static Wave wave3;
+
+    public static LevelGeneration levelManager;
+
+    public static Wave[] waveSeeds = new Wave[3];
 
     [SerializeField]
-    private TreeGeneration treeGeneration;
+    public static Wave wave1;
+    [SerializeField]
+    public static Wave wave2;
+    [SerializeField]
+    public static Wave wave3;
+
+    static bool isFirstEnter = true;
+
+    [SerializeField]
+    private ObjectGeneration treeGeneration;
 
     [SerializeField]
     private int mapWidthInTiles, mapDepthInTiles;
@@ -111,39 +115,55 @@ public class LevelGeneration : MonoBehaviour
     private TerrainType warm = new TerrainType("Warm", 0.5f, new Color32(255, 206, 104, 100), 1);
     private TerrainType cold = new TerrainType("Cold", 0.9f, new Color32(137, 255, 245, 100), 0);
 
-
-    void Start()
+    private void Awake()
     {
-        terrainTypes[0] = water;
-        terrainTypes[1] = sand;
-        terrainTypes[2] = grass;
-        terrainTypes[3] = mountain;
-        terrainTypes[4] = snow;
+        //Singleton
+        if(levelManager != null && levelManager != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            levelManager = this;
 
-        temperatureTerrainTypes[0] = hot;
-        temperatureTerrainTypes[1] = warm;
-        temperatureTerrainTypes[2] = cold;
+            if (isFirstEnter)
+            {
+                wave1 = new Wave(6666, 1, 1);
+                wave2 = new Wave(8888, 0.5f, 2);
+                wave3 = new Wave(2222, 0.25f, 4);
+                isFirstEnter = false;
+            }
+            terrainTypes[0] = water;
+            terrainTypes[1] = sand;
+            terrainTypes[2] = grass;
+            terrainTypes[3] = mountain;
+            terrainTypes[4] = snow;
 
-        waveSeeds[0] = wave1;
-        waveSeeds[1] = wave2;
-        waveSeeds[2] = wave3;
-        GenerateMap();
+            temperatureTerrainTypes[0] = hot;
+            temperatureTerrainTypes[1] = warm;
+            temperatureTerrainTypes[2] = cold;
+
+            waveSeeds[0] = wave1;
+            waveSeeds[1] = wave2;
+            waveSeeds[2] = wave3;
+
+            GenerateMap();
+        }
     }
-    void GenerateMap()
+
+    public void GenerateMap()
     {
 
         Vector3 tileSize = tilePrefab.GetComponent<MeshRenderer>().bounds.size;
         int tileWidth = (int)tileSize.x;
         int tileDepth = (int)tileSize.z;
 
-        // calculate the number of vertices of the tile in each axis using its mesh
         Vector3[] tileMeshVertices = tilePrefab.GetComponent<MeshFilter>().sharedMesh.vertices;
         int tileDepthInVertices = (int)Mathf.Sqrt(tileMeshVertices.Length);
         int tileWidthInVertices = tileDepthInVertices;
 
         float distanceBetweenVertices = (float)tileDepth / (float)tileDepthInVertices;
 
-        // build an empty LevelData object, to be filled with the tiles to be generated
         LevelData levelData = new LevelData(tileDepthInVertices, tileWidthInVertices, this.mapDepthInTiles, this.mapWidthInTiles);
 
 
@@ -160,7 +180,6 @@ public class LevelGeneration : MonoBehaviour
                 GameObject tile = Instantiate(tilePrefab, tilePosition, Quaternion.identity) as GameObject;
 
 
-                // generate the Tile texture and save it in the levelData
                 TileData tileData = tile.GetComponent<TileGeneration>().GenerateTile(56, 56, terrainTypes, temperatureTerrainTypes);
                 levelData.AddTileData(tileData, zTileIndex, xTileIndex);
             }

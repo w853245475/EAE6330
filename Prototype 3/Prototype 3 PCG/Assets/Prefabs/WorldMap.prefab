@@ -213,12 +213,12 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   waveSeeds:
-  - seed: 4533
+  - seed: 2222
     frequency: 1
     amplitude: 1
-  - seed: 3422
+  - seed: 6666
     frequency: 0.5
     amplitude: 2
-  - seed: 9999
-    frequency: 0.1
-    amplitude: 6
+  - seed: 8888
+    frequency: 0.25
+    amplitude: 4
