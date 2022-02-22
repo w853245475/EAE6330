@@ -1,0 +1,6660 @@
+fileFormatVersion: 2
+guid: 617bd103233e5c44ea38476e3cb62df0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3142856237357742515
+    second: Mossy - BackgroundDecoration_0
+  - first:
+      213: -7522072805114197072
+    second: Mossy - BackgroundDecoration_1
+  - first:
+      213: 1380579553542856557
+    second: Mossy - BackgroundDecoration_2
+  - first:
+      213: 3660132632875294079
+    second: Mossy - BackgroundDecoration_3
+  - first:
+      213: -6215869556700256215
+    second: Mossy - BackgroundDecoration_4
+  - first:
+      213: -2410754012211790020
+    second: Mossy - BackgroundDecoration_5
+  - first:
+      213: -730436856212797230
+    second: Mossy - BackgroundDecoration_6
+  - first:
+      213: -7177992248958779001
+    second: Mossy - BackgroundDecoration_7
+  - first:
+      213: -2449380398559453523
+    second: Mossy - BackgroundDecoration_8
+  - first:
+      213: 4471100444394994765
+    second: Mossy - BackgroundDecoration_9
+  - first:
+      213: -1267564794048891414
+    second: Mossy - BackgroundDecoration_10
+  - first:
+      213: 6825633903504019156
+    second: Mossy - BackgroundDecoration_11
+  - first:
+      213: -1546699469071441219
+    second: Mossy - BackgroundDecoration_12
+  - first:
+      213: 472611090620016735
+    second: Mossy - BackgroundDecoration_13
+  - first:
+      213: 801446949195516504
+    second: Mossy - BackgroundDecoration_14
+  - first:
+      213: -6193704203994434346
+    second: Mossy - BackgroundDecoration_15
+  - first:
+      213: -1922306644087323574
+    second: Mossy - BackgroundDecoration_16
+  - first:
+      213: -8093934909600783156
+    second: Mossy - BackgroundDecoration_17
+  - first:
+      213: 9211940645275536264
+    second: Mossy - BackgroundDecoration_18
+  - first:
+      213: 3012285773280917752
+    second: Mossy - BackgroundDecoration_19
+  - first:
+      213: 8734453271343794383
+    second: Mossy - BackgroundDecoration_20
+  - first:
+      213: -1058461458913433401
+    second: Mossy - BackgroundDecoration_21
+  - first:
+      213: 5707153073370316931
+    second: Mossy - BackgroundDecoration_22
+  - first:
+      213: 8042168729063198717
+    second: Mossy - BackgroundDecoration_23
+  - first:
+      213: 3795341626709292775
+    second: Mossy - BackgroundDecoration_24
+  - first:
+      213: 5908789037199094214
+    second: Mossy - BackgroundDecoration_25
+  - first:
+      213: -6029410012778929337
+    second: Mossy - BackgroundDecoration_26
+  - first:
+      213: -5095653861503478071
+    second: Mossy - BackgroundDecoration_27
+  - first:
+      213: -6753262323546908817
+    second: Mossy - BackgroundDecoration_28
+  - first:
+      213: -1497369986048773138
+    second: Mossy - BackgroundDecoration_29
+  - first:
+      213: 7528961423027905725
+    second: Mossy - BackgroundDecoration_30
+  - first:
+      213: 6759965119331251478
+    second: Mossy - BackgroundDecoration_31
+  - first:
+      213: -5485538952868052220
+    second: Mossy - BackgroundDecoration_32
+  - first:
+      213: 981166879708876026
+    second: Mossy - BackgroundDecoration_33
+  - first:
+      213: -1846210275195927714
+    second: Mossy - BackgroundDecoration_34
+  - first:
+      213: 7074646248688251630
+    second: Mossy - BackgroundDecoration_35
+  - first:
+      213: -1137210758596451464
+    second: Mossy - BackgroundDecoration_36
+  - first:
+      213: -2818555486739885178
+    second: Mossy - BackgroundDecoration_37
+  - first:
+      213: -6176521694269298584
+    second: Mossy - BackgroundDecoration_38
+  - first:
+      213: 7151471915671872250
+    second: Mossy - BackgroundDecoration_39
+  - first:
+      213: 2512726076265289078
+    second: Mossy - BackgroundDecoration_40
+  - first:
+      213: -1586992809394658428
+    second: Mossy - BackgroundDecoration_41
+  - first:
+      213: 6461832917521662761
+    second: Mossy - BackgroundDecoration_42
+  - first:
+      213: -3507623892877050703
+    second: Mossy - BackgroundDecoration_43
+  - first:
+      213: 6762625351855912550
+    second: Mossy - BackgroundDecoration_44
+  - first:
+      213: -3241646348460749167
+    second: Mossy - BackgroundDecoration_45
+  - first:
+      213: -4082886917744819534
+    second: Mossy - BackgroundDecoration_46
+  - first:
+      213: -6691594810984423022
+    second: Mossy - BackgroundDecoration_47
+  - first:
+      213: -3556296095136238498
+    second: Mossy - BackgroundDecoration_48
+  - first:
+      213: 5413068353496737661
+    second: Mossy - BackgroundDecoration_49
+  - first:
+      213: 3278288706408027264
+    second: Mossy - BackgroundDecoration_50
+  - first:
+      213: 8676759715466364013
+    second: Mossy - BackgroundDecoration_51
+  - first:
+      213: -6089250139522825813
+    second: Mossy - BackgroundDecoration_52
+  - first:
+      213: 3496628914154810231
+    second: Mossy - BackgroundDecoration_53
+  - first:
+      213: 1739437393329916152
+    second: Mossy - BackgroundDecoration_54
+  - first:
+      213: -5741724675855776593
+    second: Mossy - BackgroundDecoration_55
+  - first:
+      213: 3078666303800120247
+    second: Mossy - BackgroundDecoration_56
+  - first:
+      213: -4002922130248298570
+    second: Mossy - BackgroundDecoration_57
+  - first:
+      213: -4141909427628124542
+    second: Mossy - BackgroundDecoration_58
+  - first:
+      213: 3020320482476456950
+    second: Mossy - BackgroundDecoration_59
+  - first:
+      213: 1531973564421414871
+    second: Mossy - BackgroundDecoration_60
+  - first:
+      213: -4453425375125284647
+    second: Mossy - BackgroundDecoration_61
+  - first:
+      213: -2869134718580075126
+    second: Mossy - BackgroundDecoration_62
+  - first:
+      213: -1883793278094726103
+    second: Mossy - BackgroundDecoration_63
+  - first:
+      213: 6571482413265107021
+    second: Mossy - BackgroundDecoration_64
+  - first:
+      213: -3626756729306944417
+    second: Mossy - BackgroundDecoration_65
+  - first:
+      213: -3360083704406672591
+    second: Mossy - BackgroundDecoration_66
+  - first:
+      213: -2780909948031696013
+    second: Mossy - BackgroundDecoration_67
+  - first:
+      213: 1935744057569450901
+    second: Mossy - BackgroundDecoration_68
+  - first:
+      213: -6620045550579024879
+    second: Mossy - BackgroundDecoration_69
+  - first:
+      213: 6622250708029585780
+    second: Mossy - BackgroundDecoration_70
+  - first:
+      213: -8270358763542726540
+    second: Mossy - BackgroundDecoration_71
+  - first:
+      213: -1260718727513781520
+    second: Mossy - BackgroundDecoration_72
+  - first:
+      213: -538049586744606436
+    second: Mossy - BackgroundDecoration_73
+  - first:
+      213: 3438486620042903878
+    second: Mossy - BackgroundDecoration_74
+  - first:
+      213: 8542501009609372269
+    second: Mossy - BackgroundDecoration_75
+  - first:
+      213: 2642873400240364308
+    second: Mossy - BackgroundDecoration_76
+  - first:
+      213: 4792336558921411820
+    second: Mossy - BackgroundDecoration_77
+  - first:
+      213: -968566589652501281
+    second: Mossy - BackgroundDecoration_78
+  - first:
+      213: -5943812606466001346
+    second: Mossy - BackgroundDecoration_79
+  - first:
+      213: 9141538066622159463
+    second: Mossy - BackgroundDecoration_80
+  - first:
+      213: 5638864196808289935
+    second: Mossy - BackgroundDecoration_81
+  - first:
+      213: -9145354594717648454
+    second: Mossy - BackgroundDecoration_82
+  - first:
+      213: -8270161285573945763
+    second: Mossy - BackgroundDecoration_83
+  - first:
+      213: 1887138972098505962
+    second: Mossy - BackgroundDecoration_84
+  - first:
+      213: -6795741669609586154
+    second: Mossy - BackgroundDecoration_85
+  - first:
+      213: 2797282406694909190
+    second: Mossy - BackgroundDecoration_86
+  - first:
+      213: -8447202411206353083
+    second: Mossy - BackgroundDecoration_87
+  - first:
+      213: -6437824124859221572
+    second: Mossy - BackgroundDecoration_88
+  - first:
+      213: -8601407994829004442
+    second: Mossy - BackgroundDecoration_89
+  - first:
+      213: -5962733000908882224
+    second: Mossy - BackgroundDecoration_90
+  - first:
+      213: -674926485688346234
+    second: Mossy - BackgroundDecoration_91
+  - first:
+      213: 1849421994092397141
+    second: Mossy - BackgroundDecoration_92
+  - first:
+      213: -6243903612643618033
+    second: Mossy - BackgroundDecoration_93
+  - first:
+      213: 8354525666095371862
+    second: Mossy - BackgroundDecoration_94
+  - first:
+      213: 9118552110524313408
+    second: Mossy - BackgroundDecoration_95
+  - first:
+      213: -3366979015153292986
+    second: Mossy - BackgroundDecoration_96
+  - first:
+      213: -8551941553873211475
+    second: Mossy - BackgroundDecoration_97
+  - first:
+      213: -3425502782036895929
+    second: Mossy - BackgroundDecoration_98
+  - first:
+      213: 196364689882276175
+    second: Mossy - BackgroundDecoration_99
+  - first:
+      213: 1227268370138263090
+    second: Mossy - BackgroundDecoration_100
+  - first:
+      213: -5149003058751820524
+    second: Mossy - BackgroundDecoration_101
+  - first:
+      213: -2555629355809377184
+    second: Mossy - BackgroundDecoration_102
+  - first:
+      213: -2411804780863924783
+    second: Mossy - BackgroundDecoration_103
+  - first:
+      213: 4456974621225954916
+    second: Mossy - BackgroundDecoration_104
+  - first:
+      213: 4288574052990366093
+    second: Mossy - BackgroundDecoration_105
+  - first:
+      213: -1891741587919588997
+    second: Mossy - BackgroundDecoration_106
+  - first:
+      213: 5821611882207417064
+    second: Mossy - BackgroundDecoration_107
+  - first:
+      213: 7392906551468885623
+    second: Mossy - BackgroundDecoration_108
+  - first:
+      213: -3338837822278923978
+    second: Mossy - BackgroundDecoration_109
+  - first:
+      213: -1824484588534274882
+    second: Mossy - BackgroundDecoration_110
+  - first:
+      213: 4653432783503532784
+    second: Mossy - BackgroundDecoration_111
+  - first:
+      213: -5742888305592859826
+    second: Mossy - BackgroundDecoration_112
+  - first:
+      213: 2725955931577951316
+    second: Mossy - BackgroundDecoration_113
+  - first:
+      213: 5203525379352638060
+    second: Mossy - BackgroundDecoration_114
+  - first:
+      213: -4561999030331922554
+    second: Mossy - BackgroundDecoration_115
+  - first:
+      213: -7109904040225671385
+    second: Mossy - BackgroundDecoration_116
+  - first:
+      213: -1618121022493536624
+    second: Mossy - BackgroundDecoration_117
+  - first:
+      213: 3316351736099644122
+    second: Mossy - BackgroundDecoration_118
+  - first:
+      213: 2721209446817329104
+    second: Mossy - BackgroundDecoration_119
+  - first:
+      213: 8418046628360624825
+    second: Mossy - BackgroundDecoration_120
+  - first:
+      213: -2095079466552724045
+    second: Mossy - BackgroundDecoration_121
+  - first:
+      213: 5942056902645081803
+    second: Mossy - BackgroundDecoration_122
+  - first:
+      213: -3644469457929239932
+    second: Mossy - BackgroundDecoration_123
+  - first:
+      213: -7201185849663839922
+    second: Mossy - BackgroundDecoration_124
+  - first:
+      213: -1435681281255724859
+    second: Mossy - BackgroundDecoration_125
+  - first:
+      213: 3148267343914662986
+    second: Mossy - BackgroundDecoration_126
+  - first:
+      213: 2153448810851377077
+    second: Mossy - BackgroundDecoration_127
+  - first:
+      213: -6519705475545049316
+    second: Mossy - BackgroundDecoration_128
+  - first:
+      213: 1301213478172622075
+    second: Mossy - BackgroundDecoration_129
+  - first:
+      213: -4112050193813475601
+    second: Mossy - BackgroundDecoration_130
+  - first:
+      213: -5884047397076280403
+    second: Mossy - BackgroundDecoration_131
+  - first:
+      213: -5190236708529615536
+    second: Mossy - BackgroundDecoration_132
+  - first:
+      213: 122051552918746047
+    second: Mossy - BackgroundDecoration_133
+  - first:
+      213: -3753126304102101070
+    second: Mossy - BackgroundDecoration_134
+  - first:
+      213: -8252878453391057676
+    second: Mossy - BackgroundDecoration_135
+  - first:
+      213: 1859775178261542931
+    second: Mossy - BackgroundDecoration_136
+  - first:
+      213: -6751233148811694365
+    second: Mossy - BackgroundDecoration_137
+  - first:
+      213: -3841080833067916290
+    second: Mossy - BackgroundDecoration_138
+  - first:
+      213: 8855846795595569418
+    second: Mossy - BackgroundDecoration_139
+  - first:
+      213: 4171876287932698397
+    second: Mossy - BackgroundDecoration_140
+  - first:
+      213: 2161985915850116557
+    second: Mossy - BackgroundDecoration_141
+  - first:
+      213: 7644049202451707849
+    second: Mossy - BackgroundDecoration_142
+  - first:
+      213: 3628316306976406880
+    second: Mossy - BackgroundDecoration_143
+  - first:
+      213: 3321673207665103583
+    second: Mossy - BackgroundDecoration_144
+  - first:
+      213: -8960904992392690992
+    second: Mossy - BackgroundDecoration_145
+  - first:
+      213: 1027159469458344331
+    second: Mossy - BackgroundDecoration_146
+  - first:
+      213: 3379080937902489465
+    second: Mossy - BackgroundDecoration_147
+  - first:
+      213: -2612557046793904707
+    second: Mossy - BackgroundDecoration_148
+  - first:
+      213: 6038246273397066832
+    second: Mossy - BackgroundDecoration_149
+  - first:
+      213: 6708774519284777113
+    second: Mossy - BackgroundDecoration_150
+  - first:
+      213: -7013631528601864555
+    second: Mossy - BackgroundDecoration_151
+  - first:
+      213: -4303564621557240494
+    second: Mossy - BackgroundDecoration_152
+  - first:
+      213: -1723628949336960631
+    second: Mossy - BackgroundDecoration_153
+  - first:
+      213: -4939966796151068302
+    second: Mossy - BackgroundDecoration_154
+  - first:
+      213: -8654063765926792512
+    second: Mossy - BackgroundDecoration_155
+  - first:
+      213: 2350428703090850292
+    second: Mossy - BackgroundDecoration_156
+  - first:
+      213: -7829187106590572558
+    second: Mossy - BackgroundDecoration_157
+  - first:
+      213: 1726982410995876737
+    second: Mossy - BackgroundDecoration_158
+  - first:
+      213: -3942185928224988774
+    second: Mossy - BackgroundDecoration_159
+  - first:
+      213: -4001459126515755985
+    second: Mossy - BackgroundDecoration_160
+  - first:
+      213: -9124985310669916368
+    second: Mossy - BackgroundDecoration_161
+  - first:
+      213: -731162254305490054
+    second: Mossy - BackgroundDecoration_162
+  - first:
+      213: -9078322129299485599
+    second: Mossy - BackgroundDecoration_163
+  - first:
+      213: -9135875849315918096
+    second: Mossy - BackgroundDecoration_164
+  - first:
+      213: 731505017875574263
+    second: Mossy - BackgroundDecoration_165
+  - first:
+      213: -702620840907958054
+    second: Mossy - BackgroundDecoration_166
+  - first:
+      213: -2591167424511964656
+    second: Mossy - BackgroundDecoration_167
+  - first:
+      213: 1666299672195893698
+    second: Mossy - BackgroundDecoration_168
+  - first:
+      213: -1868582574146532186
+    second: Mossy - BackgroundDecoration_169
+  - first:
+      213: 3844082279224931593
+    second: Mossy - BackgroundDecoration_170
+  - first:
+      213: 136713227161244872
+    second: Mossy - BackgroundDecoration_171
+  - first:
+      213: -5749954199909113247
+    second: Mossy - BackgroundDecoration_172
+  - first:
+      213: -3747131801604919844
+    second: Mossy - BackgroundDecoration_173
+  - first:
+      213: 4004397818167051040
+    second: Mossy - BackgroundDecoration_174
+  - first:
+      213: -3614486959264396699
+    second: Mossy - BackgroundDecoration_175
+  - first:
+      213: -2055584043222343153
+    second: Mossy - BackgroundDecoration_176
+  - first:
+      213: -2935529259080002954
+    second: Mossy - BackgroundDecoration_177
+  - first:
+      213: 2457185761622184440
+    second: Mossy - BackgroundDecoration_178
+  - first:
+      213: 2098081602365707095
+    second: Mossy - BackgroundDecoration_179
+  - first:
+      213: -2542465667887353988
+    second: Mossy - BackgroundDecoration_180
+  - first:
+      213: -8704572274068115688
+    second: Mossy - BackgroundDecoration_181
+  - first:
+      213: 2785825210108561328
+    second: Mossy - BackgroundDecoration_182
+  - first:
+      213: 5507547543656271772
+    second: Mossy - BackgroundDecoration_183
+  - first:
+      213: -3414996979818819568
+    second: Mossy - BackgroundDecoration_184
+  - first:
+      213: 5177406926606593777
+    second: Mossy - BackgroundDecoration_185
+  - first:
+      213: 1161934448373020586
+    second: Mossy - BackgroundDecoration_186
+  - first:
+      213: -8438636770843686418
+    second: Mossy - BackgroundDecoration_187
+  - first:
+      213: -7417255918105802786
+    second: Mossy - BackgroundDecoration_188
+  - first:
+      213: 1886134416842555500
+    second: Mossy - BackgroundDecoration_189
+  - first:
+      213: -4619117389660618482
+    second: Mossy - BackgroundDecoration_190
+  - first:
+      213: -265770358617804601
+    second: Mossy - BackgroundDecoration_191
+  - first:
+      213: 3397492248583929058
+    second: Mossy - BackgroundDecoration_192
+  - first:
+      213: 7662771119545257310
+    second: Mossy - BackgroundDecoration_193
+  - first:
+      213: -5135472665342858342
+    second: Mossy - BackgroundDecoration_194
+  - first:
+      213: -7646588582424184221
+    second: Mossy - BackgroundDecoration_195
+  - first:
+      213: -5033292749582805104
+    second: Mossy - BackgroundDecoration_196
+  - first:
+      213: -701384080568432436
+    second: Mossy - BackgroundDecoration_197
+  - first:
+      213: -692660931746561801
+    second: Mossy - BackgroundDecoration_198
+  - first:
+      213: 658130513988608133
+    second: Mossy - BackgroundDecoration_199
+  - first:
+      213: 7492711652490048241
+    second: Mossy - BackgroundDecoration_200
+  - first:
+      213: 3347738601868427077
+    second: Mossy - BackgroundDecoration_201
+  - first:
+      213: 2661284225085457846
+    second: Mossy - BackgroundDecoration_202
+  - first:
+      213: -8482497948525494424
+    second: Mossy - BackgroundDecoration_203
+  - first:
+      213: -7412699465357210670
+    second: Mossy - BackgroundDecoration_204
+  - first:
+      213: 1360364533106144435
+    second: Mossy - BackgroundDecoration_205
+  - first:
+      213: 996195311048665404
+    second: Mossy - BackgroundDecoration_206
+  - first:
+      213: -8412441335302252738
+    second: Mossy - BackgroundDecoration_207
+  - first:
+      213: 2799020977685537060
+    second: Mossy - BackgroundDecoration_208
+  - first:
+      213: 3844921741542577104
+    second: Mossy - BackgroundDecoration_209
+  - first:
+      213: -3024504764660164496
+    second: Mossy - BackgroundDecoration_210
+  - first:
+      213: -7197153356529036755
+    second: Mossy - BackgroundDecoration_211
+  - first:
+      213: -3754870804212719284
+    second: Mossy - BackgroundDecoration_212
+  - first:
+      213: -7955196720564023006
+    second: Mossy - BackgroundDecoration_213
+  - first:
+      213: -8107380116101886063
+    second: Mossy - BackgroundDecoration_214
+  - first:
+      213: -7681777069441489782
+    second: Mossy - BackgroundDecoration_215
+  - first:
+      213: 3641843315959845978
+    second: Mossy - BackgroundDecoration_216
+  - first:
+      213: 904441124349831296
+    second: Mossy - BackgroundDecoration_217
+  - first:
+      213: -1577052793432886882
+    second: Mossy - BackgroundDecoration_218
+  - first:
+      213: -7022341358817252551
+    second: Mossy - BackgroundDecoration_219
+  - first:
+      213: 8309904141510625084
+    second: Mossy - BackgroundDecoration_220
+  - first:
+      213: -6103250630912098220
+    second: Mossy - BackgroundDecoration_221
+  - first:
+      213: -8248365404924160789
+    second: Mossy - BackgroundDecoration_222
+  - first:
+      213: -3912271525862945721
+    second: Mossy - BackgroundDecoration_223
+  - first:
+      213: -6423506680405548319
+    second: Mossy - BackgroundDecoration_224
+  - first:
+      213: 9020450045128882853
+    second: Mossy - BackgroundDecoration_225
+  - first:
+      213: 1940063149428794194
+    second: Mossy - BackgroundDecoration_226
+  - first:
+      213: -1238134539362256696
+    second: Mossy - BackgroundDecoration_227
+  - first:
+      213: 8316279847156300156
+    second: Mossy - BackgroundDecoration_228
+  - first:
+      213: 5499142637178916230
+    second: Mossy - BackgroundDecoration_229
+  - first:
+      213: 1420864150124969792
+    second: Mossy - BackgroundDecoration_230
+  - first:
+      213: 6998608851818948490
+    second: Mossy - BackgroundDecoration_231
+  - first:
+      213: -2809464467365052626
+    second: Mossy - BackgroundDecoration_232
+  - first:
+      213: 6515870028276672287
+    second: Mossy - BackgroundDecoration_233
+  - first:
+      213: -6856661680537058427
+    second: Mossy - BackgroundDecoration_234
+  - first:
+      213: -5580753442285821320
+    second: Mossy - BackgroundDecoration_235
+  - first:
+      213: -7581242422955755121
+    second: Mossy - BackgroundDecoration_236
+  - first:
+      213: -2446146568782556399
+    second: Mossy - BackgroundDecoration_237
+  - first:
+      213: 4701349469348193594
+    second: Mossy - BackgroundDecoration_238
+  - first:
+      213: -3269688232219602231
+    second: Mossy - BackgroundDecoration_239
+  - first:
+      213: -3635823547316855430
+    second: Mossy - BackgroundDecoration_240
+  - first:
+      213: 4611589141385220991
+    second: Mossy - BackgroundDecoration_241
+  - first:
+      213: -5831993384047714063
+    second: Mossy - BackgroundDecoration_242
+  - first:
+      213: -2472225878587746760
+    second: Mossy - BackgroundDecoration_243
+  - first:
+      213: -1259415649061929034
+    second: Mossy - BackgroundDecoration_244
+  - first:
+      213: -8811269030959231460
+    second: Mossy - BackgroundDecoration_245
+  - first:
+      213: -8168305024016831249
+    second: Mossy - BackgroundDecoration_246
+  - first:
+      213: -995710540959486846
+    second: Mossy - BackgroundDecoration_247
+  - first:
+      213: 7155347896167431607
+    second: Mossy - BackgroundDecoration_248
+  - first:
+      213: -5315349360358496878
+    second: Mossy - BackgroundDecoration_249
+  - first:
+      213: -4653278587241764220
+    second: Mossy - BackgroundDecoration_250
+  - first:
+      213: 4598014971703772953
+    second: Mossy - BackgroundDecoration_251
+  - first:
+      213: -6030161118334835887
+    second: Mossy - BackgroundDecoration_252
+  - first:
+      213: -414973036573035316
+    second: Mossy - BackgroundDecoration_253
+  - first:
+      213: 7758339116654671971
+    second: Mossy - BackgroundDecoration_254
+  - first:
+      213: 6010669517710114792
+    second: Mossy - BackgroundDecoration_255
+  - first:
+      213: 7076252181245286914
+    second: Mossy - BackgroundDecoration_256
+  - first:
+      213: 6989119920070947071
+    second: Mossy - BackgroundDecoration_257
+  - first:
+      213: 6228763233138770351
+    second: Mossy - BackgroundDecoration_258
+  - first:
+      213: -6660270623734478359
+    second: Mossy - BackgroundDecoration_259
+  - first:
+      213: 6245368848354860538
+    second: Mossy - BackgroundDecoration_260
+  - first:
+      213: -6566653414215041089
+    second: Mossy - BackgroundDecoration_261
+  - first:
+      213: 2193520049254386412
+    second: Mossy - BackgroundDecoration_262
+  - first:
+      213: 5841540327093675612
+    second: Mossy - BackgroundDecoration_263
+  - first:
+      213: -4652240247652567412
+    second: Mossy - BackgroundDecoration_264
+  - first:
+      213: 8704999631193203713
+    second: Mossy - BackgroundDecoration_265
+  - first:
+      213: 1672366531185919674
+    second: Mossy - BackgroundDecoration_266
+  - first:
+      213: 3552350460570860843
+    second: Mossy - BackgroundDecoration_267
+  - first:
+      213: -8071078895502217182
+    second: Mossy - BackgroundDecoration_268
+  - first:
+      213: -1348620488770501860
+    second: Mossy - BackgroundDecoration_269
+  - first:
+      213: 4002509952336276631
+    second: Mossy - BackgroundDecoration_270
+  - first:
+      213: 8791180291592207859
+    second: Mossy - BackgroundDecoration_271
+  - first:
+      213: -7003423358554835972
+    second: Mossy - BackgroundDecoration_272
+  - first:
+      213: 8295508516859104244
+    second: Mossy - BackgroundDecoration_273
+  - first:
+      213: -284343488571419024
+    second: Mossy - BackgroundDecoration_274
+  - first:
+      213: -4484903165089639942
+    second: Mossy - BackgroundDecoration_275
+  - first:
+      213: 4621683726177279464
+    second: Mossy - BackgroundDecoration_276
+  - first:
+      213: -1568744201463233912
+    second: Mossy - BackgroundDecoration_277
+  - first:
+      213: -3430154179595382270
+    second: Mossy - BackgroundDecoration_278
+  - first:
+      213: 45106298700580478
+    second: Mossy - BackgroundDecoration_279
+  - first:
+      213: 4448889890419259866
+    second: Mossy - BackgroundDecoration_280
+  - first:
+      213: -3933080495263222761
+    second: Mossy - BackgroundDecoration_281
+  - first:
+      213: -5141075550296248894
+    second: Mossy - BackgroundDecoration_282
+  - first:
+      213: 8113449182203420816
+    second: Mossy - BackgroundDecoration_283
+  - first:
+      213: -4248458889038604764
+    second: Mossy - BackgroundDecoration_284
+  - first:
+      213: -7771902494034837770
+    second: Mossy - BackgroundDecoration_285
+  - first:
+      213: 7992212530706671347
+    second: Mossy - BackgroundDecoration_286
+  - first:
+      213: 789188649203250132
+    second: Mossy - BackgroundDecoration_287
+  - first:
+      213: 8827783098775755545
+    second: Mossy - BackgroundDecoration_288
+  - first:
+      213: -2075654992670375572
+    second: Mossy - BackgroundDecoration_289
+  - first:
+      213: -6883398745531918798
+    second: Mossy - BackgroundDecoration_290
+  - first:
+      213: -3637469957559696649
+    second: Mossy - BackgroundDecoration_291
+  - first:
+      213: -2473345324069706967
+    second: Mossy - BackgroundDecoration_292
+  - first:
+      213: -1940316522214693117
+    second: Mossy - BackgroundDecoration_293
+  - first:
+      213: 1385273344493175825
+    second: Mossy - BackgroundDecoration_294
+  - first:
+      213: -877277213119230248
+    second: Mossy - BackgroundDecoration_295
+  - first:
+      213: -5700600479859988548
+    second: Mossy - BackgroundDecoration_296
+  - first:
+      213: 14411713828886187
+    second: Mossy - BackgroundDecoration_297
+  - first:
+      213: -3191992270124894150
+    second: Mossy - BackgroundDecoration_298
+  - first:
+      213: 8811030461222688764
+    second: Mossy - BackgroundDecoration_299
+  - first:
+      213: 7462172922305382967
+    second: Mossy - BackgroundDecoration_300
+  - first:
+      213: 5233760604630267812
+    second: Mossy - BackgroundDecoration_301
+  - first:
+      213: 1977471147578298214
+    second: Mossy - BackgroundDecoration_302
+  - first:
+      213: 8136752613786102227
+    second: Mossy - BackgroundDecoration_303
+  - first:
+      213: 8729523059762820415
+    second: Mossy - BackgroundDecoration_304
+  - first:
+      213: 8173348579773877916
+    second: Mossy - BackgroundDecoration_305
+  - first:
+      213: -4801071339107057908
+    second: Mossy - BackgroundDecoration_306
+  - first:
+      213: -334724496825532937
+    second: Mossy - BackgroundDecoration_307
+  - first:
+      213: 568431004628085878
+    second: Mossy - BackgroundDecoration_308
+  - first:
+      213: 8789873201751639825
+    second: Mossy - BackgroundDecoration_309
+  - first:
+      213: 7941019174826764924
+    second: Mossy - BackgroundDecoration_310
+  - first:
+      213: 558571453322130528
+    second: Mossy - BackgroundDecoration_311
+  - first:
+      213: -3954398334713280411
+    second: Mossy - BackgroundDecoration_312
+  - first:
+      213: 329545705224100133
+    second: Mossy - BackgroundDecoration_313
+  - first:
+      213: 6371053665294033376
+    second: Mossy - BackgroundDecoration_314
+  - first:
+      213: -2039145594893073541
+    second: Mossy - BackgroundDecoration_315
+  - first:
+      213: 5948967320922219971
+    second: Mossy - BackgroundDecoration_316
+  - first:
+      213: -4669659893110866072
+    second: Mossy - BackgroundDecoration_317
+  - first:
+      213: 7728817426050166123
+    second: Mossy - BackgroundDecoration_318
+  - first:
+      213: -4137361878837084940
+    second: Mossy - BackgroundDecoration_319
+  - first:
+      213: -517160849605803628
+    second: Mossy - BackgroundDecoration_320
+  - first:
+      213: 8772774393177486769
+    second: Mossy - BackgroundDecoration_321
+  - first:
+      213: 5370246343277855194
+    second: Mossy - BackgroundDecoration_322
+  - first:
+      213: 1789709557066786289
+    second: Mossy - BackgroundDecoration_323
+  - first:
+      213: -5515973788722107320
+    second: Mossy - BackgroundDecoration_324
+  - first:
+      213: 9023992273078885638
+    second: Mossy - BackgroundDecoration_325
+  - first:
+      213: -5692050787912302120
+    second: Mossy - BackgroundDecoration_326
+  - first:
+      213: 8802214361397159385
+    second: Mossy - BackgroundDecoration_327
+  - first:
+      213: -5376409815214582875
+    second: Mossy - BackgroundDecoration_328
+  - first:
+      213: 9190869840755748106
+    second: Mossy - BackgroundDecoration_329
+  - first:
+      213: 8256638420875757334
+    second: Mossy - BackgroundDecoration_330
+  - first:
+      213: 3003344657741147612
+    second: Mossy - BackgroundDecoration_331
+  - first:
+      213: 4818809276332470129
+    second: Mossy - BackgroundDecoration_332
+  - first:
+      213: -5518264500910869385
+    second: Mossy - BackgroundDecoration_333
+  - first:
+      213: -3296385329694475217
+    second: Mossy - BackgroundDecoration_334
+  - first:
+      213: -6500841644550919421
+    second: Mossy - BackgroundDecoration_335
+  - first:
+      213: 3448670037232435039
+    second: Mossy - BackgroundDecoration_336
+  - first:
+      213: 6560646688402046380
+    second: Mossy - BackgroundDecoration_337
+  - first:
+      213: -6107629491727837821
+    second: Mossy - BackgroundDecoration_338
+  - first:
+      213: -2240260488111182813
+    second: Mossy - BackgroundDecoration_339
+  - first:
+      213: 2201242820754372554
+    second: Mossy - BackgroundDecoration_340
+  - first:
+      213: -6525186050641572401
+    second: Mossy - BackgroundDecoration_341
+  - first:
+      213: -6186690311476410239
+    second: Mossy - BackgroundDecoration_342
+  - first:
+      213: 8985522998994779911
+    second: Mossy - BackgroundDecoration_343
+  - first:
+      213: 4050912132422653964
+    second: Mossy - BackgroundDecoration_344
+  - first:
+      213: 8431585945511346973
+    second: Mossy - BackgroundDecoration_345
+  - first:
+      213: -549640150526861149
+    second: Mossy - BackgroundDecoration_346
+  - first:
+      213: 925170300569634119
+    second: Mossy - BackgroundDecoration_347
+  - first:
+      213: 876327053674984106
+    second: Mossy - BackgroundDecoration_348
+  - first:
+      213: -1297671831701973902
+    second: Mossy - BackgroundDecoration_349
+  - first:
+      213: -6411419808999035450
+    second: Mossy - BackgroundDecoration_350
+  - first:
+      213: 1326646605297594773
+    second: Mossy - BackgroundDecoration_351
+  - first:
+      213: 6141209037935272159
+    second: Mossy - BackgroundDecoration_352
+  - first:
+      213: 5300509322864189483
+    second: Mossy - BackgroundDecoration_353
+  - first:
+      213: 213404219099483339
+    second: Mossy - BackgroundDecoration_354
+  - first:
+      213: -4302433281052818846
+    second: Mossy - BackgroundDecoration_355
+  - first:
+      213: 2866463912976876860
+    second: Mossy - BackgroundDecoration_356
+  - first:
+      213: 8374161300779210409
+    second: Mossy - BackgroundDecoration_357
+  - first:
+      213: -9511582776553027
+    second: Mossy - BackgroundDecoration_358
+  - first:
+      213: -3581555584702893862
+    second: Mossy - BackgroundDecoration_359
+  - first:
+      213: -172091564762154924
+    second: Mossy - BackgroundDecoration_360
+  - first:
+      213: -5914276005864993167
+    second: Mossy - BackgroundDecoration_361
+  - first:
+      213: 1583799828981160566
+    second: Mossy - BackgroundDecoration_362
+  - first:
+      213: -2415279173293120252
+    second: Mossy - BackgroundDecoration_363
+  - first:
+      213: -3736396014068419999
+    second: Mossy - BackgroundDecoration_364
+  - first:
+      213: -4880307467770616590
+    second: Mossy - BackgroundDecoration_365
+  - first:
+      213: -5148323533178994663
+    second: Mossy - BackgroundDecoration_366
+  - first:
+      213: 6706112389148486919
+    second: Mossy - BackgroundDecoration_367
+  - first:
+      213: 4885538694958174024
+    second: Mossy - BackgroundDecoration_368
+  - first:
+      213: 7052128058224458075
+    second: Mossy - BackgroundDecoration_369
+  - first:
+      213: 2673126400710856660
+    second: Mossy - BackgroundDecoration_370
+  - first:
+      213: 9157725630804820213
+    second: Mossy - BackgroundDecoration_371
+  - first:
+      213: -5997863949257079527
+    second: Mossy - BackgroundDecoration_372
+  - first:
+      213: -348579889412249867
+    second: Mossy - BackgroundDecoration_373
+  - first:
+      213: 4421652025456247462
+    second: Mossy - BackgroundDecoration_374
+  - first:
+      213: 6999278969603877444
+    second: Mossy - BackgroundDecoration_375
+  - first:
+      213: -1224141524281590290
+    second: Mossy - BackgroundDecoration_376
+  - first:
+      213: -1171103230658218268
+    second: Mossy - BackgroundDecoration_377
+  - first:
+      213: -243196470786523816
+    second: Mossy - BackgroundDecoration_378
+  - first:
+      213: 47144403629624378
+    second: Mossy - BackgroundDecoration_379
+  - first:
+      213: 9198092383492953986
+    second: Mossy - BackgroundDecoration_380
+  - first:
+      213: 912671040855651853
+    second: Mossy - BackgroundDecoration_381
+  - first:
+      213: 854956313780152755
+    second: Mossy - BackgroundDecoration_382
+  - first:
+      213: 79075519162001605
+    second: Mossy - BackgroundDecoration_383
+  - first:
+      213: 2970522480417775190
+    second: Mossy - BackgroundDecoration_384
+  - first:
+      213: -3916018661938290610
+    second: Mossy - BackgroundDecoration_385
+  - first:
+      213: 7090837959192434670
+    second: Mossy - BackgroundDecoration_386
+  - first:
+      213: -323764110549289273
+    second: Mossy - BackgroundDecoration_387
+  - first:
+      213: -7189653832233671044
+    second: Mossy - BackgroundDecoration_388
+  - first:
+      213: 9213404112096718629
+    second: Mossy - BackgroundDecoration_389
+  - first:
+      213: 9012149302123793593
+    second: Mossy - BackgroundDecoration_390
+  - first:
+      213: -8910193028432888757
+    second: Mossy - BackgroundDecoration_391
+  - first:
+      213: -1097542072814481315
+    second: Mossy - BackgroundDecoration_392
+  - first:
+      213: -6887460358629469139
+    second: Mossy - BackgroundDecoration_393
+  - first:
+      213: 2004014354569490502
+    second: Mossy - BackgroundDecoration_394
+  - first:
+      213: -3442746406122175810
+    second: Mossy - BackgroundDecoration_395
+  - first:
+      213: -7772259222809736934
+    second: Mossy - BackgroundDecoration_396
+  - first:
+      213: -4337915040951479091
+    second: Mossy - BackgroundDecoration_397
+  - first:
+      213: -8195217308434252430
+    second: Mossy - BackgroundDecoration_398
+  - first:
+      213: 1581242460828530509
+    second: Mossy - BackgroundDecoration_399
+  - first:
+      213: -2879233108915003796
+    second: Mossy - BackgroundDecoration_400
+  - first:
+      213: 8443971222744575406
+    second: Mossy - BackgroundDecoration_401
+  - first:
+      213: 2402695542895574239
+    second: Mossy - BackgroundDecoration_402
+  - first:
+      213: 7495827542017255436
+    second: Mossy - BackgroundDecoration_403
+  - first:
+      213: 1813567913464420214
+    second: Mossy - BackgroundDecoration_404
+  - first:
+      213: -1950690826226794824
+    second: Mossy - BackgroundDecoration_405
+  - first:
+      213: -7155114483424165037
+    second: Mossy - BackgroundDecoration_406
+  - first:
+      213: 7667357383159970520
+    second: Mossy - BackgroundDecoration_407
+  - first:
+      213: -4766765278769525521
+    second: Mossy - BackgroundDecoration_408
+  - first:
+      213: -6088736131528659810
+    second: Mossy - BackgroundDecoration_409
+  - first:
+      213: 5733053130421815891
+    second: Mossy - BackgroundDecoration_410
+  - first:
+      213: 4383353075799134794
+    second: Mossy - BackgroundDecoration_411
+  - first:
+      213: -7927646067899141106
+    second: Mossy - BackgroundDecoration_412
+  - first:
+      213: -26126469962200249
+    second: Mossy - BackgroundDecoration_413
+  - first:
+      213: -954664287031847893
+    second: Mossy - BackgroundDecoration_414
+  - first:
+      213: 5411253380617402256
+    second: Mossy - BackgroundDecoration_415
+  - first:
+      213: 6686270239407115273
+    second: Mossy - BackgroundDecoration_416
+  - first:
+      213: 5707496503251851414
+    second: Mossy - BackgroundDecoration_417
+  - first:
+      213: 715832129084510728
+    second: Mossy - BackgroundDecoration_418
+  - first:
+      213: -5382579715885278416
+    second: Mossy - BackgroundDecoration_419
+  - first:
+      213: -8312972167101432739
+    second: Mossy - BackgroundDecoration_420
+  - first:
+      213: -8266486152968422218
+    second: Mossy - BackgroundDecoration_421
+  - first:
+      213: -1438356077062603133
+    second: Mossy - BackgroundDecoration_422
+  - first:
+      213: 6282606807733631331
+    second: Mossy - BackgroundDecoration_423
+  - first:
+      213: -2989570276284979708
+    second: Mossy - BackgroundDecoration_424
+  - first:
+      213: 2747347409383742412
+    second: Mossy - BackgroundDecoration_425
+  - first:
+      213: 8604250324124314910
+    second: Mossy - BackgroundDecoration_426
+  - first:
+      213: 5972725462639355246
+    second: Mossy - BackgroundDecoration_427
+  - first:
+      213: -5283904862505022669
+    second: Mossy - BackgroundDecoration_428
+  - first:
+      213: 1146196415901216705
+    second: Mossy - BackgroundDecoration_429
+  - first:
+      213: -8853773142065192486
+    second: Mossy - BackgroundDecoration_430
+  - first:
+      213: 4044253903752258453
+    second: Mossy - BackgroundDecoration_431
+  - first:
+      213: 5795528062756913885
+    second: Mossy - BackgroundDecoration_432
+  - first:
+      213: 8017497481772247080
+    second: Mossy - BackgroundDecoration_433
+  - first:
+      213: 609280302901194381
+    second: Mossy - BackgroundDecoration_434
+  - first:
+      213: -5542417097634333794
+    second: Mossy - BackgroundDecoration_435
+  - first:
+      213: 2137628657386294402
+    second: Mossy - BackgroundDecoration_436
+  - first:
+      213: -8121799908107202024
+    second: Mossy - BackgroundDecoration_437
+  - first:
+      213: 3188250712377872052
+    second: Mossy - BackgroundDecoration_438
+  - first:
+      213: 5489102603222001014
+    second: Mossy - BackgroundDecoration_439
+  - first:
+      213: -2535504154569719760
+    second: Mossy - BackgroundDecoration_440
+  - first:
+      213: 7321859084581798021
+    second: Mossy - BackgroundDecoration_441
+  - first:
+      213: -1103033510265395180
+    second: Mossy - BackgroundDecoration_442
+  - first:
+      213: -7047784590646839264
+    second: Mossy - BackgroundDecoration_443
+  - first:
+      213: -4602273749313042885
+    second: Mossy - BackgroundDecoration_444
+  - first:
+      213: 5096411681528758509
+    second: Mossy - BackgroundDecoration_445
+  - first:
+      213: -2699845638227739830
+    second: Mossy - BackgroundDecoration_446
+  - first:
+      213: -9202567092395611595
+    second: Mossy - BackgroundDecoration_447
+  - first:
+      213: 2382098850490413819
+    second: Mossy - BackgroundDecoration_448
+  - first:
+      213: 7585172829203325512
+    second: Mossy - BackgroundDecoration_449
+  - first:
+      213: -1586943808251774311
+    second: Mossy - BackgroundDecoration_450
+  - first:
+      213: 4784388818208860587
+    second: Mossy - BackgroundDecoration_451
+  - first:
+      213: -330905607235432596
+    second: Mossy - BackgroundDecoration_452
+  - first:
+      213: 536789729467910803
+    second: Mossy - BackgroundDecoration_453
+  - first:
+      213: -2469449297628486850
+    second: Mossy - BackgroundDecoration_454
+  - first:
+      213: 3899515706638475484
+    second: Mossy - BackgroundDecoration_455
+  - first:
+      213: -2266760543798158771
+    second: Mossy - BackgroundDecoration_456
+  - first:
+      213: -415428093343913655
+    second: Mossy - BackgroundDecoration_457
+  - first:
+      213: -5498676984000999021
+    second: Mossy - BackgroundDecoration_458
+  - first:
+      213: -1628970315170400246
+    second: Mossy - BackgroundDecoration_459
+  - first:
+      213: 4487138485885496889
+    second: Mossy - BackgroundDecoration_460
+  - first:
+      213: -8725727977733725237
+    second: Mossy - BackgroundDecoration_461
+  - first:
+      213: -7937615758350875851
+    second: Mossy - BackgroundDecoration_462
+  - first:
+      213: 3669378509785555718
+    second: Mossy - BackgroundDecoration_463
+  - first:
+      213: 3912529137687318340
+    second: Mossy - BackgroundDecoration_464
+  - first:
+      213: 5327022489069823121
+    second: Mossy - BackgroundDecoration_465
+  - first:
+      213: -762153219480172618
+    second: Mossy - BackgroundDecoration_466
+  - first:
+      213: -3623921980747230103
+    second: Mossy - BackgroundDecoration_467
+  - first:
+      213: 9039395175868475214
+    second: Mossy - BackgroundDecoration_468
+  - first:
+      213: 5068627271603583001
+    second: Mossy - BackgroundDecoration_469
+  - first:
+      213: -1089781878331410249
+    second: Mossy - BackgroundDecoration_470
+  - first:
+      213: 1148608534814968526
+    second: Mossy - BackgroundDecoration_471
+  - first:
+      213: 1456276509271144719
+    second: Mossy - BackgroundDecoration_472
+  - first:
+      213: -1333990089170062516
+    second: Mossy - BackgroundDecoration_473
+  - first:
+      213: 7824761557650149128
+    second: Mossy - BackgroundDecoration_474
+  - first:
+      213: 6410644916401582636
+    second: Mossy - BackgroundDecoration_475
+  - first:
+      213: -4157718216853072448
+    second: Mossy - BackgroundDecoration_476
+  - first:
+      213: 9018753341677532654
+    second: Mossy - BackgroundDecoration_477
+  - first:
+      213: -1210571299697510199
+    second: Mossy - BackgroundDecoration_478
+  - first:
+      213: 7440842536651147553
+    second: Mossy - BackgroundDecoration_479
+  - first:
+      213: 1781164567193089147
+    second: Mossy - BackgroundDecoration_480
+  - first:
+      213: -6588220575217953780
+    second: Mossy - BackgroundDecoration_481
+  - first:
+      213: -4164038317116471161
+    second: Mossy - BackgroundDecoration_482
+  - first:
+      213: -4983471852177348312
+    second: Mossy - BackgroundDecoration_483
+  - first:
+      213: -8408939801304744944
+    second: Mossy - BackgroundDecoration_484
+  - first:
+      213: 6590994081661526569
+    second: Mossy - BackgroundDecoration_485
+  - first:
+      213: -282070687623659701
+    second: Mossy - BackgroundDecoration_486
+  - first:
+      213: 4205143950207778999
+    second: Mossy - BackgroundDecoration_487
+  - first:
+      213: 2702194627908993550
+    second: Mossy - BackgroundDecoration_488
+  - first:
+      213: -4505752449821117558
+    second: Mossy - BackgroundDecoration_489
+  - first:
+      213: -6811274893577037037
+    second: Mossy - BackgroundDecoration_490
+  - first:
+      213: -1363848711705411494
+    second: Mossy - BackgroundDecoration_491
+  - first:
+      213: -8234538567296174988
+    second: Mossy - BackgroundDecoration_492
+  - first:
+      213: -7290163202216464167
+    second: Mossy - BackgroundDecoration_493
+  - first:
+      213: 4298493837871091847
+    second: Mossy - BackgroundDecoration_494
+  - first:
+      213: -6133541357440323232
+    second: Mossy - BackgroundDecoration_495
+  - first:
+      213: 4325749347364436605
+    second: Mossy - BackgroundDecoration_496
+  - first:
+      213: -3883642760976001509
+    second: Mossy - BackgroundDecoration_497
+  - first:
+      213: 815420423440869633
+    second: Mossy - BackgroundDecoration_498
+  - first:
+      213: 7525317898950941142
+    second: Mossy - BackgroundDecoration_499
+  - first:
+      213: -3691013492840550231
+    second: Mossy - BackgroundDecoration_500
+  - first:
+      213: -1949338312513653083
+    second: Mossy - BackgroundDecoration_501
+  - first:
+      213: -1123584483629108155
+    second: Mossy - BackgroundDecoration_502
+  - first:
+      213: -8990487297061065929
+    second: Mossy - BackgroundDecoration_503
+  - first:
+      213: 3787420830612341638
+    second: Mossy - BackgroundDecoration_504
+  - first:
+      213: -2895727256500708906
+    second: Mossy - BackgroundDecoration_505
+  - first:
+      213: -4925038079491343111
+    second: Mossy - BackgroundDecoration_506
+  - first:
+      213: -5963196389297843617
+    second: Mossy - BackgroundDecoration_507
+  - first:
+      213: 2734380055500525564
+    second: Mossy - BackgroundDecoration_508
+  - first:
+      213: -2935157765128422572
+    second: Mossy - BackgroundDecoration_509
+  - first:
+      213: 7903722730211093844
+    second: Mossy - BackgroundDecoration_510
+  - first:
+      213: -3241621407221953827
+    second: Mossy - BackgroundDecoration_511
+  - first:
+      213: -3416228393000629190
+    second: Mossy - BackgroundDecoration_512
+  - first:
+      213: -4854618723162985140
+    second: Mossy - BackgroundDecoration_513
+  - first:
+      213: -7336793622716625947
+    second: Mossy - BackgroundDecoration_514
+  - first:
+      213: 1827968902407561657
+    second: Mossy - BackgroundDecoration_515
+  - first:
+      213: -4243180705690267539
+    second: Mossy - BackgroundDecoration_516
+  - first:
+      213: 1680017757942965418
+    second: Mossy - BackgroundDecoration_517
+  - first:
+      213: -4967312556458492778
+    second: Mossy - BackgroundDecoration_518
+  - first:
+      213: -6744024088243399957
+    second: Mossy - BackgroundDecoration_519
+  - first:
+      213: -7221464021813393364
+    second: Mossy - BackgroundDecoration_520
+  - first:
+      213: -8170156483037790934
+    second: Mossy - BackgroundDecoration_521
+  - first:
+      213: -5491199891074883286
+    second: Mossy - BackgroundDecoration_522
+  - first:
+      213: 4647090345386805495
+    second: Mossy - BackgroundDecoration_523
+  - first:
+      213: -8701191083870714604
+    second: Mossy - BackgroundDecoration_524
+  - first:
+      213: 6384666444521648024
+    second: Mossy - BackgroundDecoration_525
+  - first:
+      213: 4196122419251905497
+    second: Mossy - BackgroundDecoration_526
+  - first:
+      213: -1372697505224614046
+    second: Mossy - BackgroundDecoration_527
+  - first:
+      213: 8577274273810356219
+    second: Mossy - BackgroundDecoration_528
+  - first:
+      213: -7905036486913731113
+    second: Mossy - BackgroundDecoration_529
+  - first:
+      213: -2591938593686485646
+    second: Mossy - BackgroundDecoration_530
+  - first:
+      213: 2065450608194192521
+    second: Mossy - BackgroundDecoration_531
+  - first:
+      213: 2627071129211700998
+    second: Mossy - BackgroundDecoration_532
+  - first:
+      213: -5142469024723732721
+    second: Mossy - BackgroundDecoration_533
+  - first:
+      213: 4219233462259900700
+    second: Mossy - BackgroundDecoration_534
+  - first:
+      213: -8152885612888545408
+    second: Mossy - BackgroundDecoration_535
+  - first:
+      213: -3228153753236742055
+    second: Mossy - BackgroundDecoration_536
+  - first:
+      213: 6188845536016866637
+    second: Mossy - BackgroundDecoration_537
+  - first:
+      213: 7543057199472240429
+    second: Mossy - BackgroundDecoration_538
+  - first:
+      213: -7006922167573884681
+    second: Mossy - BackgroundDecoration_539
+  - first:
+      213: -8725599963155855286
+    second: Mossy - BackgroundDecoration_540
+  - first:
+      213: 2928995956957295154
+    second: Mossy - BackgroundDecoration_541
+  - first:
+      213: 6954483708990013284
+    second: Mossy - BackgroundDecoration_542
+  - first:
+      213: -7965431197071775777
+    second: Mossy - BackgroundDecoration_543
+  - first:
+      213: 1554820259169478602
+    second: Mossy - BackgroundDecoration_544
+  - first:
+      213: -2175725974937267537
+    second: Mossy - BackgroundDecoration_545
+  - first:
+      213: 220377628489458810
+    second: Mossy - BackgroundDecoration_546
+  - first:
+      213: -1986213797012120996
+    second: Mossy - BackgroundDecoration_547
+  - first:
+      213: 7630274840402726296
+    second: Mossy - BackgroundDecoration_548
+  - first:
+      213: 8811845752411635153
+    second: Mossy - BackgroundDecoration_549
+  - first:
+      213: -1646736441164592765
+    second: Mossy - BackgroundDecoration_550
+  - first:
+      213: -3863936402793187039
+    second: Mossy - BackgroundDecoration_551
+  - first:
+      213: 4154139115865886236
+    second: Mossy - BackgroundDecoration_552
+  - first:
+      213: 5277096340251505400
+    second: Mossy - BackgroundDecoration_553
+  - first:
+      213: -6849382242927684749
+    second: Mossy - BackgroundDecoration_554
+  - first:
+      213: 1649927131559141066
+    second: Mossy - BackgroundDecoration_555
+  - first:
+      213: -5729175224927339551
+    second: Mossy - BackgroundDecoration_556
+  - first:
+      213: 3468981419119995095
+    second: Mossy - BackgroundDecoration_557
+  - first:
+      213: 7636980179252799479
+    second: Mossy - BackgroundDecoration_558
+  - first:
+      213: -98603901040911324
+    second: Mossy - BackgroundDecoration_559
+  - first:
+      213: -6803034886625827162
+    second: Mossy - BackgroundDecoration_560
+  - first:
+      213: -4578556252134724101
+    second: Mossy - BackgroundDecoration_561
+  - first:
+      213: -4247494173985360434
+    second: Mossy - BackgroundDecoration_562
+  - first:
+      213: 1954129301693569844
+    second: Mossy - BackgroundDecoration_563
+  - first:
+      213: -3592431411905183467
+    second: Mossy - BackgroundDecoration_564
+  - first:
+      213: -4911557242471513888
+    second: Mossy - BackgroundDecoration_565
+  - first:
+      213: -7839351562071473493
+    second: Mossy - BackgroundDecoration_566
+  - first:
+      213: -3037332880244393355
+    second: Mossy - BackgroundDecoration_567
+  - first:
+      213: -8635333046323586596
+    second: Mossy - BackgroundDecoration_568
+  - first:
+      213: 7548454827049185481
+    second: Mossy - BackgroundDecoration_569
+  - first:
+      213: 9074032823581968375
+    second: Mossy - BackgroundDecoration_570
+  - first:
+      213: 4615993739604571190
+    second: Mossy - BackgroundDecoration_571
+  - first:
+      213: -3146577449821223745
+    second: Mossy - BackgroundDecoration_572
+  - first:
+      213: -2407589040941217452
+    second: Mossy - BackgroundDecoration_573
+  - first:
+      213: 296345996666144835
+    second: Mossy - BackgroundDecoration_574
+  - first:
+      213: 3716864648274160113
+    second: Mossy - BackgroundDecoration_575
+  - first:
+      213: 7145555147349328148
+    second: Mossy - BackgroundDecoration_576
+  - first:
+      213: 7066978624325493775
+    second: Mossy - BackgroundDecoration_577
+  - first:
+      213: -4431061577403276170
+    second: Mossy - BackgroundDecoration_578
+  - first:
+      213: -5728829548202888820
+    second: Mossy - BackgroundDecoration_579
+  - first:
+      213: 2712878813503615474
+    second: Mossy - BackgroundDecoration_580
+  - first:
+      213: -833528921890846734
+    second: Mossy - BackgroundDecoration_581
+  - first:
+      213: 7110123035760762419
+    second: Mossy - BackgroundDecoration_582
+  - first:
+      213: 5773338506475214567
+    second: Mossy - BackgroundDecoration_583
+  - first:
+      213: 8632146894809209020
+    second: Mossy - BackgroundDecoration_584
+  - first:
+      213: -4290193642750316819
+    second: Mossy - BackgroundDecoration_585
+  - first:
+      213: 4349743806230689493
+    second: Mossy - BackgroundDecoration_586
+  - first:
+      213: -807636812077375361
+    second: Mossy - BackgroundDecoration_587
+  - first:
+      213: 998418911109201763
+    second: Mossy - BackgroundDecoration_588
+  - first:
+      213: 7555808512764326941
+    second: Mossy - BackgroundDecoration_589
+  - first:
+      213: 7037676386442521581
+    second: Mossy - BackgroundDecoration_590
+  - first:
+      213: 3943092101951507834
+    second: Mossy - BackgroundDecoration_591
+  - first:
+      213: 6773552837851451183
+    second: Mossy - BackgroundDecoration_592
+  - first:
+      213: -2187127234293763374
+    second: Mossy - BackgroundDecoration_593
+  - first:
+      213: 6898532482653507091
+    second: Mossy - BackgroundDecoration_594
+  - first:
+      213: -3671977229252511093
+    second: Mossy - BackgroundDecoration_595
+  - first:
+      213: -693180512106442468
+    second: Mossy - BackgroundDecoration_596
+  - first:
+      213: -5669574975150432737
+    second: Mossy - BackgroundDecoration_597
+  - first:
+      213: 2972594554735673956
+    second: Mossy - BackgroundDecoration_598
+  - first:
+      213: 8400510985085889187
+    second: Mossy - BackgroundDecoration_599
+  - first:
+      213: -4684923178585181655
+    second: Mossy - BackgroundDecoration_600
+  - first:
+      213: -2319389042816956850
+    second: Mossy - BackgroundDecoration_601
+  - first:
+      213: 1450957930679877426
+    second: Mossy - BackgroundDecoration_602
+  - first:
+      213: 8014098136926382145
+    second: Mossy - BackgroundDecoration_603
+  - first:
+      213: -8294066524099730340
+    second: Mossy - BackgroundDecoration_604
+  - first:
+      213: -6321123563966860352
+    second: Mossy - BackgroundDecoration_605
+  - first:
+      213: 5162078605616351175
+    second: Mossy - BackgroundDecoration_606
+  - first:
+      213: 8412185813812762985
+    second: Mossy - BackgroundDecoration_607
+  - first:
+      213: 2382549147145536739
+    second: Mossy - BackgroundDecoration_608
+  - first:
+      213: -8538847530017553312
+    second: Mossy - BackgroundDecoration_609
+  - first:
+      213: 2201017205552956295
+    second: Mossy - BackgroundDecoration_610
+  - first:
+      213: 1068108345837550342
+    second: Mossy - BackgroundDecoration_611
+  - first:
+      213: 4535437115714574913
+    second: Mossy - BackgroundDecoration_612
+  - first:
+      213: 5568008154249585895
+    second: Mossy - BackgroundDecoration_613
+  - first:
+      213: -9127796342145388192
+    second: Mossy - BackgroundDecoration_614
+  - first:
+      213: -1930913472082491282
+    second: Mossy - BackgroundDecoration_615
+  - first:
+      213: -6792954001167329781
+    second: Mossy - BackgroundDecoration_616
+  - first:
+      213: 5957179654476667545
+    second: Mossy - BackgroundDecoration_617
+  - first:
+      213: -8447142051779665849
+    second: Mossy - BackgroundDecoration_618
+  - first:
+      213: -6201875791188566130
+    second: Mossy - BackgroundDecoration_619
+  - first:
+      213: -3442497809560843654
+    second: Mossy - BackgroundDecoration_620
+  - first:
+      213: 7609544239896327035
+    second: Mossy - BackgroundDecoration_621
+  - first:
+      213: 3627592027840350808
+    second: Mossy - BackgroundDecoration_622
+  - first:
+      213: 4259515453963839853
+    second: Mossy - BackgroundDecoration_623
+  - first:
+      213: -5836702859625641947
+    second: Mossy - BackgroundDecoration_624
+  - first:
+      213: -3016761826369689679
+    second: Mossy - BackgroundDecoration_625
+  - first:
+      213: -382875165248155619
+    second: Mossy - BackgroundDecoration_626
+  - first:
+      213: -6482184096006155116
+    second: Mossy - BackgroundDecoration_627
+  - first:
+      213: 6980166604691045148
+    second: Mossy - BackgroundDecoration_628
+  - first:
+      213: 7096302257811551714
+    second: Mossy - BackgroundDecoration_629
+  - first:
+      213: 9145039338527777495
+    second: Mossy - BackgroundDecoration_630
+  - first:
+      213: -35377869370433502
+    second: Mossy - BackgroundDecoration_631
+  - first:
+      213: 5149964751449309620
+    second: Mossy - BackgroundDecoration_632
+  - first:
+      213: 6503571591524255061
+    second: Mossy - BackgroundDecoration_633
+  - first:
+      213: 414182738188894046
+    second: Mossy - BackgroundDecoration_634
+  - first:
+      213: 7184537416715348555
+    second: Mossy - BackgroundDecoration_635
+  - first:
+      213: 6119625993083042772
+    second: Mossy - BackgroundDecoration_636
+  - first:
+      213: -4197453778086021507
+    second: Mossy - BackgroundDecoration_637
+  - first:
+      213: 7592278022716260294
+    second: Mossy - BackgroundDecoration_638
+  - first:
+      213: -7404274280585112228
+    second: Mossy - BackgroundDecoration_639
+  - first:
+      213: 5440410251099858071
+    second: Mossy - BackgroundDecoration_640
+  - first:
+      213: -3667916264667577047
+    second: Mossy - BackgroundDecoration_641
+  - first:
+      213: 4432886698188160096
+    second: Mossy - BackgroundDecoration_642
+  - first:
+      213: -7972307085557757768
+    second: Mossy - BackgroundDecoration_643
+  - first:
+      213: 1178904891607546977
+    second: Mossy - BackgroundDecoration_644
+  - first:
+      213: -680275474286250128
+    second: Mossy - BackgroundDecoration_645
+  - first:
+      213: 5568566433999295957
+    second: Mossy - BackgroundDecoration_646
+  - first:
+      213: 1605593001565623679
+    second: Mossy - BackgroundDecoration_647
+  - first:
+      213: -3281077545487318574
+    second: Mossy - BackgroundDecoration_648
+  - first:
+      213: -3860132538613721613
+    second: Mossy - BackgroundDecoration_649
+  - first:
+      213: 537655312912518550
+    second: Mossy - BackgroundDecoration_650
+  - first:
+      213: 5743455165382990553
+    second: Mossy - BackgroundDecoration_651
+  - first:
+      213: 1749050683804112155
+    second: Mossy - BackgroundDecoration_652
+  - first:
+      213: 7573254424911064363
+    second: Mossy - BackgroundDecoration_653
+  - first:
+      213: -5306022390395943044
+    second: Mossy - BackgroundDecoration_654
+  - first:
+      213: -2660550117367721594
+    second: Mossy - BackgroundDecoration_655
+  - first:
+      213: -7001914875052936209
+    second: Mossy - BackgroundDecoration_656
+  - first:
+      213: -8835488172455199756
+    second: Mossy - BackgroundDecoration_657
+  - first:
+      213: -8498129916512236672
+    second: Mossy - BackgroundDecoration_658
+  - first:
+      213: 4854279569415106130
+    second: Mossy - BackgroundDecoration_659
+  - first:
+      213: -8821856017618655352
+    second: Mossy - BackgroundDecoration_660
+  - first:
+      213: 8810675188503275943
+    second: Mossy - BackgroundDecoration_661
+  - first:
+      213: 8544760677064144190
+    second: Mossy - BackgroundDecoration_662
+  - first:
+      213: -537047220143031293
+    second: Mossy - BackgroundDecoration_663
+  - first:
+      213: 6645870133174458870
+    second: Mossy - BackgroundDecoration_664
+  - first:
+      213: 3783382093967295796
+    second: Mossy - BackgroundDecoration_665
+  - first:
+      213: -9124644522598207183
+    second: Mossy - BackgroundDecoration_666
+  - first:
+      213: -2691285613906791523
+    second: Mossy - BackgroundDecoration_667
+  - first:
+      213: -7231939884155282687
+    second: Mossy - BackgroundDecoration_668
+  - first:
+      213: 1575122794022449417
+    second: Mossy - BackgroundDecoration_669
+  - first:
+      213: 5154306296911053163
+    second: Mossy - BackgroundDecoration_670
+  - first:
+      213: -3707533759119811805
+    second: Mossy - BackgroundDecoration_671
+  - first:
+      213: 8864938629232742952
+    second: Mossy - BackgroundDecoration_672
+  - first:
+      213: -4226138654582833360
+    second: Mossy - BackgroundDecoration_673
+  - first:
+      213: -2426571042184560534
+    second: Mossy - BackgroundDecoration_674
+  - first:
+      213: 8434788306307621260
+    second: Mossy - BackgroundDecoration_675
+  - first:
+      213: 3804069029199116814
+    second: Mossy - BackgroundDecoration_676
+  - first:
+      213: -2305212176050772390
+    second: Mossy - BackgroundDecoration_677
+  - first:
+      213: -5062669298017712345
+    second: Mossy - BackgroundDecoration_678
+  - first:
+      213: -6865755948492518931
+    second: Mossy - BackgroundDecoration_679
+  - first:
+      213: 8516608815082163022
+    second: Mossy - BackgroundDecoration_680
+  - first:
+      213: -64602636965775572
+    second: Mossy - BackgroundDecoration_681
+  - first:
+      213: 2242016348090761550
+    second: Mossy - BackgroundDecoration_682
+  - first:
+      213: -5536042027171660212
+    second: Mossy - BackgroundDecoration_683
+  - first:
+      213: -6019223211692564623
+    second: Mossy - BackgroundDecoration_684
+  - first:
+      213: 7128729863083848551
+    second: Mossy - BackgroundDecoration_685
+  - first:
+      213: -6633802282702941270
+    second: Mossy - BackgroundDecoration_686
+  - first:
+      213: 7002494088752461185
+    second: Mossy - BackgroundDecoration_687
+  - first:
+      213: 5830759472511075281
+    second: Mossy - BackgroundDecoration_688
+  - first:
+      213: -8269950355171752390
+    second: Mossy - BackgroundDecoration_689
+  - first:
+      213: 312949222959966960
+    second: Mossy - BackgroundDecoration_690
+  - first:
+      213: 8325975496374355710
+    second: Mossy - BackgroundDecoration_691
+  - first:
+      213: -4139719139511677755
+    second: Mossy - BackgroundDecoration_692
+  - first:
+      213: 6286044212090705949
+    second: Mossy - BackgroundDecoration_693
+  - first:
+      213: -9138043602634767468
+    second: Mossy - BackgroundDecoration_694
+  - first:
+      213: 8488774730599745002
+    second: Mossy - BackgroundDecoration_695
+  - first:
+      213: 4257370343418990564
+    second: Mossy - BackgroundDecoration_696
+  - first:
+      213: -7161255537821020506
+    second: Mossy - BackgroundDecoration_697
+  - first:
+      213: 1829410834707831285
+    second: Mossy - BackgroundDecoration_698
+  - first:
+      213: -5237085166933211918
+    second: Mossy - BackgroundDecoration_699
+  - first:
+      213: 2190373133753602421
+    second: Mossy - BackgroundDecoration_700
+  - first:
+      213: -8079284409603408712
+    second: Mossy - BackgroundDecoration_701
+  - first:
+      213: 1556625302579207651
+    second: Mossy - BackgroundDecoration_702
+  - first:
+      213: -413378412574885606
+    second: Mossy - BackgroundDecoration_703
+  - first:
+      213: 4240694900817666056
+    second: Mossy - BackgroundDecoration_704
+  - first:
+      213: 2568877406927396158
+    second: Mossy - BackgroundDecoration_705
+  - first:
+      213: -23950204759991380
+    second: Mossy - BackgroundDecoration_706
+  - first:
+      213: -3723355851826194229
+    second: Mossy - BackgroundDecoration_707
+  - first:
+      213: 8382734085373334181
+    second: Mossy - BackgroundDecoration_708
+  - first:
+      213: 2409339797967335931
+    second: Mossy - BackgroundDecoration_709
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46cb2857e45264d0800000000000000
+      internalID: -3142856237357742515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbca8c23aa3c9790800000000000000
+      internalID: -7522072805114197072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fd6111acdc82310800000000000000
+      internalID: 1380579553542856557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dd855cc376bc230800000000000000
+      internalID: 3660132632875294079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92867be329bccb9a0800000000000000
+      internalID: -6215869556700256215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_5
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fb445aff74b8ed0800000000000000
+      internalID: -2410754012211790020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_6
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8459e9c87fcd5f0800000000000000
+      internalID: -730436856212797230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_7
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7810e488416a26c90800000000000000
+      internalID: -7177992248958779001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_8
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae1f00418d020ed0800000000000000
+      internalID: -2449380398559453523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_9
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c314f4a2a8c0e30800000000000000
+      internalID: 4471100444394994765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_10
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5bce02984b86ee0800000000000000
+      internalID: -1267564794048891414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de48391fd589be50800000000000000
+      internalID: 6825633903504019156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db226b31705098ae0800000000000000
+      internalID: -1546699469071441219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58e05d684d0f8600800000000000000
+      internalID: 472611090620016735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a8e1901cf4f1b00800000000000000
+      internalID: 801446949195516504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_15
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4711597da8b0aa0800000000000000
+      internalID: -6193704203994434346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_16
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a444dc1ca489255e0800000000000000
+      internalID: -1922306644087323574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_17
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4ac1e45119caf80800000000000000
+      internalID: -8093934909600783156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_18
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b81adb53367df70800000000000000
+      internalID: 9211940645275536264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_19
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f83f5673f9cdc920800000000000000
+      internalID: 3012285773280917752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_20
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc802b129f2073970800000000000000
+      internalID: 8734453271343794383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_21
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8e50d39e69f41f0800000000000000
+      internalID: -1058461458913433401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_22
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38044018b71e33f40800000000000000
+      internalID: 5707153073370316931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff019f89d58b9f60800000000000000
+      internalID: 8042168729063198717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6b245d913cba430800000000000000
+      internalID: 3795341626709292775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c179feb25c300250800000000000000
+      internalID: 5908789037199094214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743e02fd98b335ca0800000000000000
+      internalID: -6029410012778929337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6dcb69fc99849b0800000000000000
+      internalID: -5095653861503478071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6715f172b79742a0800000000000000
+      internalID: -6753262323546908817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_29
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee33b3c5ee5483be0800000000000000
+      internalID: -1497369986048773138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_30
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4a23b268e3c7860800000000000000
+      internalID: 7528961423027905725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_31
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61535cfc57830dd50800000000000000
+      internalID: 6759965119331251478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_32
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4034bb0d2637fd3b0800000000000000
+      internalID: -5485538952868052220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_33
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc0d62241ecd9d00800000000000000
+      internalID: 981166879708876026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_34
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53454e4981f066e0800000000000000
+      internalID: -1846210275195927714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_35
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2fc94b7413e2260800000000000000
+      internalID: 7074646248688251630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_36
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8732b1b17d0d730f0800000000000000
+      internalID: -1137210758596451464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_37
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6831429d7ba72e8d0800000000000000
+      internalID: -2818555486739885178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868a5916e36984aa0800000000000000
+      internalID: -6176521694269298584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2edc231d12f3360800000000000000
+      internalID: 7151471915671872250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67557a9ad0ffed220800000000000000
+      internalID: 2512726076265289078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_41
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483aee6b27ed9f9e0800000000000000
+      internalID: -1586992809394658428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9230ece5dca0da950800000000000000
+      internalID: 6461832917521662761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_43
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcf36357aa625fc0800000000000000
+      internalID: -3507623892877050703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_44
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6663c667deba9dd50800000000000000
+      internalID: 6762625351855912550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_45
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e0e8032db5303d0800000000000000
+      internalID: -3241646348460749167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_46
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b20bb9fafba657c0800000000000000
+      internalID: -4082886917744819534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_47
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2912d6619fda223a0800000000000000
+      internalID: -6691594810984423022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_48
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54bb452b8f75aec0800000000000000
+      internalID: -3556296095136238498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_49
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77e413ecf41f1b40800000000000000
+      internalID: 5413068353496737661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_50
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08410a89532de7d20800000000000000
+      internalID: 3278288706408027264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_51
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64cac16dfa0a6870800000000000000
+      internalID: 8676759715466364013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba18e35a243ae7ba0800000000000000
+      internalID: -6089250139522825813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bae83b875868030800000000000000
+      internalID: 3496628914154810231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_54
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f80672e719b32810800000000000000
+      internalID: 1739437393329916152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_55
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4858904db4150b0800000000000000
+      internalID: -5741724675855776593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_56
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b398fb11be99ba20800000000000000
+      internalID: 3078666303800120247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_57
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf000be783c278c0800000000000000
+      internalID: -4002922130248298570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_58
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2865262025bf486c0800000000000000
+      internalID: -4141909427628124542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_59
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb78d9f9755ae920800000000000000
+      internalID: 3020320482476456950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_60
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df90a017d9a24510800000000000000
+      internalID: 1531973564421414871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_61
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d852f177314232c0800000000000000
+      internalID: -4453425375125284647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_62
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a855b4ebc29ce28d0800000000000000
+      internalID: -2869134718580075126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_63
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c25ec8efb6bd5e0800000000000000
+      internalID: -1883793278094726103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_64
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2816
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48b46a0078923b50800000000000000
+      internalID: 6571482413265107021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ce6e658fb2badc0800000000000000
+      internalID: -3626756729306944417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_66
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bf24f5ca59e51d0800000000000000
+      internalID: -3360083704406672591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_67
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373883bd2293869d0800000000000000
+      internalID: -2780909948031696013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_68
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b108fd6f42dda10800000000000000
+      internalID: 1935744057569450901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_69
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cf4d075afd024a0800000000000000
+      internalID: -6620045550579024879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_70
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479bea9cee5f6eb50800000000000000
+      internalID: 6622250708029585780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_71
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4783ff5d588c93d80800000000000000
+      internalID: -8270358763542726540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_72
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0facbd43ff6018ee0800000000000000
+      internalID: -1260718727513781520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_73
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11ca8660c67888f0800000000000000
+      internalID: -538049586744606436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_74
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6414790fc55f7bf20800000000000000
+      internalID: 3438486620042903878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_75
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62be2b786f0d8670800000000000000
+      internalID: 8542501009609372269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_76
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 2560
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bd7afda5f5da420800000000000000
+      internalID: 2642873400240364308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cece0ae95bcc18240800000000000000
+      internalID: 4792336558921411820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc737281d5fe82f0800000000000000
+      internalID: -968566589652501281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36fa141de5538da0800000000000000
+      internalID: -5943812606466001346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_80
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a99b900744dde70800000000000000
+      internalID: 9141538066622159463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_81
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e2d6b6c15414e40800000000000000
+      internalID: 5638864196808289935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_82
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab93ed4437c251180800000000000000
+      internalID: -9145354594717648454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_83
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d565d22c02c7a3d80800000000000000
+      internalID: -8270161285573945763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_84
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec2ab985e6703a10800000000000000
+      internalID: 1887138972098505962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_85
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612c995f4fca0b1a0800000000000000
+      internalID: -6795741669609586154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_86
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605ff7b3781f1d620800000000000000
+      internalID: 2797282406694909190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_87
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fd836892285ca80800000000000000
+      internalID: -8447202411206353083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_88
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb97357411148a6a0800000000000000
+      internalID: -6437824124859221572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_89
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661230c3009a1a880800000000000000
+      internalID: -8601407994829004442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_90
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2304
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0deb3567ded104da0800000000000000
+      internalID: -5962733000908882224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6891b0befed22a6f0800000000000000
+      internalID: -674926485688346234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5520ca541877aa910800000000000000
+      internalID: 1849421994092397141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_93
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f035994feb23959a0800000000000000
+      internalID: -6243903612643618033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_94
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6569f7244dc31f370800000000000000
+      internalID: 8354525666095371862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_95
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fa0b515da9b8e70800000000000000
+      internalID: 9118552110524313408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_96
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649e79bbc661641d0800000000000000
+      internalID: -3366979015153292986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_97
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf2c758776615980800000000000000
+      internalID: -8551941553873211475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_98
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747149b6e5b2670d0800000000000000
+      internalID: -3425502782036895929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_99
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41ecd225a0a9b200800000000000000
+      internalID: 196364689882276175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_100
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ee92e8412280110800000000000000
+      internalID: 1227268370138263090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_101
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41da2b7aff01b88b0800000000000000
+      internalID: -5149003058751820524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_102
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064fb6524a4988cd0800000000000000
+      internalID: -2555629355809377184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_103
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d55401845c878ed0800000000000000
+      internalID: -2411804780863924783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_104
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46eaa1fcdca5add30800000000000000
+      internalID: 4456974621225954916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_105
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2048
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81b27d1163148b30800000000000000
+      internalID: 4288574052990366093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7138357c0f2fb5e0800000000000000
+      internalID: -1891741587919588997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e29a23a9258ac050800000000000000
+      internalID: 5821611882207417064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_108
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77606f9d651e89660800000000000000
+      internalID: 7392906551468885623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_109
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6390d68c0b01aa1d0800000000000000
+      internalID: -3338837822278923978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_110
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb46d3aeee02ea6e0800000000000000
+      internalID: -1824484588534274882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_111
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2a2ee2670549040800000000000000
+      internalID: 4653432783503532784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_112
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43846063892d40b0800000000000000
+      internalID: -5742888305592859826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_113
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454a21f1a7a84d520800000000000000
+      internalID: 2725955931577951316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_114
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c623b0853c2a63840800000000000000
+      internalID: 5203525379352638060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_115
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687a36b6d0680b0c0800000000000000
+      internalID: -4561999030331922554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_116
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727fb3ff1fb845d90800000000000000
+      internalID: -7109904040225671385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_117
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e4ea2d0874b89e0800000000000000
+      internalID: -1618121022493536624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_118
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2287c455c060e20800000000000000
+      internalID: 3316351736099644122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_119
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfebf4039da3c520800000000000000
+      internalID: 2721209446817329104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_120
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba1c1acec8e2d470800000000000000
+      internalID: 8418046628360624825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5f8eb4358cce2e0800000000000000
+      internalID: -2095079466552724045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_122
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc66155454d667250800000000000000
+      internalID: 5942056902645081803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_123
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4820e55565e3c6dc0800000000000000
+      internalID: -3644469457929239932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_124
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41a73d8f9f301c90800000000000000
+      internalID: -7201185849663839922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_125
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c823143b7f631ce0800000000000000
+      internalID: -1435681281255724859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_126
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cfef31874e0bb20800000000000000
+      internalID: 3148267343914662986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_127
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf98c4b84692ed10800000000000000
+      internalID: 2153448810851377077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_128
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17d7f1b96a5585a0800000000000000
+      internalID: -6519705475545049316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_129
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcfd67a3c6de0210800000000000000
+      internalID: 1301213478172622075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_130
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feeeb23a2201fe6c0800000000000000
+      internalID: -4112050193813475601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_131
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabd4bf311aa75ea0800000000000000
+      internalID: -5884047397076280403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_132
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d46ef663398f7b0800000000000000
+      internalID: -5190236708529615536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_133
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3b100ad3d91b100800000000000000
+      internalID: 122051552918746047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_134
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfc1d6e2873aebc0800000000000000
+      internalID: -3753126304102101070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc9623b5c2e77d80800000000000000
+      internalID: -8252878453391057676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3183e5ecbaf3fc910800000000000000
+      internalID: 1859775178261542931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_137
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eeac31883dce42a0800000000000000
+      internalID: -6751233148811694365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_138
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3ec6f455db1bac0800000000000000
+      internalID: -3841080833067916290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_139
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0951c48db946ea70800000000000000
+      internalID: 8855846795595569418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_140
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f8a1d516b75e930800000000000000
+      internalID: 4171876287932698397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_141
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdc4ab5cbae00e10800000000000000
+      internalID: 2161985915850116557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_142
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7fdbdef3e151a60800000000000000
+      internalID: 7644049202451707849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_143
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06df512257e5a5230800000000000000
+      internalID: 3628316306976406880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_144
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd29fc2fe24f81e20800000000000000
+      internalID: 3321673207665103583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_145
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2c866e26874a380800000000000000
+      internalID: -8960904992392690992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_146
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b894eb86814314e00800000000000000
+      internalID: 1027159469458344331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_147
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fb8fab538e4ee20800000000000000
+      internalID: 3379080937902489465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdd76635355ebbd0800000000000000
+      internalID: -2612557046793904707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_149
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c88206ef82cc350800000000000000
+      internalID: 6038246273397066832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_150
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990492471ea5a1d50800000000000000
+      internalID: 6708774519284777113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_151
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596b438d8439aae90800000000000000
+      internalID: -7013631528601864555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_152
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d642827caa644c0800000000000000
+      internalID: -4303564621557240494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_153
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981d03e4a907418e0800000000000000
+      internalID: -1723628949336960631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_154
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279e0393f56b17bb0800000000000000
+      internalID: -4939966796151068302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_155
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2ba582bd696e780800000000000000
+      internalID: -8654063765926792512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_156
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9bc9dc3766e9020800000000000000
+      internalID: 2350428703090850292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_157
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffb99faec3295390800000000000000
+      internalID: -7829187106590572558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_158
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183c1c45a5977f710800000000000000
+      internalID: 1726982410995876737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_159
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a912b9de8ca8a49c0800000000000000
+      internalID: -3942185928224988774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_160
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2498c40026f778c0800000000000000
+      internalID: -4001459126515755985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_161
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037bcd8c43a8d5180800000000000000
+      internalID: -9124985310669916368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b82f6bdc36ad5f0800000000000000
+      internalID: -731162254305490054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c49865f12530280800000000000000
+      internalID: -9078322129299485599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_164
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe5479a159d63180800000000000000
+      internalID: -9135875849315918096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_165
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fda3e520f3d62a00800000000000000
+      internalID: 731505017875574263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_166
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad815ed511acf36f0800000000000000
+      internalID: -702620840907958054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_167
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a866cb4f25a0cd0800000000000000
+      internalID: -2591167424511964656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_168
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9069239b2ef1710800000000000000
+      internalID: 1666299672195893698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_169
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acc28a8c067116e0800000000000000
+      internalID: -1868582574146532186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_170
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9057394577ce85530800000000000000
+      internalID: 3844082279224931593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_171
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c41b0da4f3b5e100800000000000000
+      internalID: 136713227161244872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_172
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162e6a7ae1f0430b0800000000000000
+      internalID: -5749954199909113247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_173
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdde4c6ca738ffbc0800000000000000
+      internalID: -3747131801604919844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_174
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0234233799a729730800000000000000
+      internalID: 4004397818167051040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_175
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a83cbc243c6ddc0800000000000000
+      internalID: -3614486959264396699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0265c124391973e0800000000000000
+      internalID: -2055584043222343153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_177
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67255c421b7e247d0800000000000000
+      internalID: -2935529259080002954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_178
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f153a47e6da91220800000000000000
+      internalID: 2457185761622184440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_179
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7535acae912ed1d10800000000000000
+      internalID: 2098081602365707095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_180
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fa2f312f857bcd0800000000000000
+      internalID: -2542465667887353988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_181
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fa472b2a5233780800000000000000
+      internalID: -8704572274068115688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_182
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b749d6c44d39a620800000000000000
+      internalID: 2785825210108561328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_183
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f053b8f4dbe6c40800000000000000
+      internalID: 5507547543656271772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_184
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0101edc175e7b90d0800000000000000
+      internalID: -3414996979818819568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_185
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe680e2b28d9d740800000000000000
+      internalID: 5177406926606593777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_186
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7309f7935002010800000000000000
+      internalID: 1161934448373020586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_187
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee900551190f3ea80800000000000000
+      internalID: -8438636770843686418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_188
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7c3217a0d901990800000000000000
+      internalID: -7417255918105802786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_189
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c600a8a4245ec2a10800000000000000
+      internalID: 1886134416842555500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_190
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01037d053995efb0800000000000000
+      internalID: -4619117389660618482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_191
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0f1c6544bcf4cf0800000000000000
+      internalID: -265770358617804601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_192
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecfcfb0331562f20800000000000000
+      internalID: 3397492248583929058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_193
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d0e9febb1a75a60800000000000000
+      internalID: 7662771119545257310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_194
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ba28cd1d22bb8b0800000000000000
+      internalID: -5135472665342858342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_195
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a7c09923cd1e590800000000000000
+      internalID: -7646588582424184221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_196
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097519a69e6262ab0800000000000000
+      internalID: -5033292749582805104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_197
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8ca9215ee2446f0800000000000000
+      internalID: -701384080568432436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_198
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0847d6d8c2366f0800000000000000
+      internalID: -692660931746561801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580e22e2736222900800000000000000
+      internalID: 658130513988608133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_200
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f27913cc857bf760800000000000000
+      internalID: 7492711652490048241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_201
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ffa35758e857e20800000000000000
+      internalID: 3347738601868427077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_202
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5c19217e7cee420800000000000000
+      internalID: 2661284225085457846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_203
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f782ade0d184a80800000000000000
+      internalID: -8482497948525494424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_204
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbc7a44c1dc02990800000000000000
+      internalID: -7412699465357210670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_205
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4f4d8d55cf0e210800000000000000
+      internalID: 1360364533106144435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_206
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3927f97b5233dd00800000000000000
+      internalID: 996195311048665404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_207
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e371f733d21014b80800000000000000
+      internalID: -8412441335302252738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_208
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42120d5dfbe18d620800000000000000
+      internalID: 2799020977685537060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy - BackgroundDecoration_209
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d352d1e3f7eb5530800000000000000
+      internalID: 3844921741542577104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3a74b067ac195d34f9124706f9d3ae9f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
