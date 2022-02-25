@@ -6,8 +6,7 @@ public class JumpState : IState
 {
     public JumpState(PlayerController i_player) : base(i_player)
     {
-        ownerGameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * ownerGameObject.GetJumpAmount(), 
-            ForceMode2D.Impulse);
+
     }
 
 

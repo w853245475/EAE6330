@@ -7,6 +7,9 @@ public class IdleState : IState
     public IdleState(PlayerController i_gameObject) : base(i_gameObject)
     {
         Debug.Log("Player In Idle State");
+
+        ownerGameObject.animator.SetBool("IsDashing", false);
+        ownerGameObject.ClearPreviousState();
     }
 
     public override void Handle(KeyCode input)

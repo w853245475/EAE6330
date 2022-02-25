@@ -7,6 +7,9 @@ public class WalkState : IState
     public WalkState(PlayerController i_player) : base(i_player)
     {
         Debug.Log("Player Walk State");
+
+        ownerGameObject.animator.SetBool("IsDashing", false);
+        ownerGameObject.ClearPreviousState();
     }
 
     public override void Handle(KeyCode input)
