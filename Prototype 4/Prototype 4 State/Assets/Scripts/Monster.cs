@@ -18,7 +18,8 @@ public class Monster : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Bullet")
+        print(other);
+        if (other.gameObject.tag == "Bullet" || other.gameObject.tag == "FireLayer")
         {
             Destroy(gameObject);
         }

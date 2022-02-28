@@ -5,7 +5,7 @@ using UnityEngine;
 public class StandingState_Robot : IState_Robot
 {
     int waitCounter;
-    int waitforseconds = 600;
+    int waitforseconds = 300;
 
     public StandingState_Robot(PlayerMovement i_player) : base(i_player)
     {

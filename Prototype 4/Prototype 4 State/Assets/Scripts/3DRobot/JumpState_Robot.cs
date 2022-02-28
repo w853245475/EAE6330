@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class JumpState_Robot : IState_Robot
 {
-    float jumpSpeed = 80.0f;
+    float jumpSpeed = 6000.0f;
     public JumpState_Robot(PlayerMovement i_player) : base(i_player)
     {
-        ownerPlayer.verticalVel = jumpSpeed;
+        ownerPlayer.verticalVel = jumpSpeed * Time.fixedDeltaTime;
         i_player.GetAnimator().SetTrigger("Jump");
     }
 

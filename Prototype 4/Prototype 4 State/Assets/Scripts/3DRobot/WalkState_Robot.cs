@@ -20,6 +20,11 @@ public class WalkState_Robot : IState_Robot
         {
             ownerPlayer.SetState(new RunState_Robot(ownerPlayer));
         }
+
+        if (ownerPlayer.GetController().isGrounded && Input.GetKeyDown(KeyCode.F))
+        {
+            ownerPlayer.SetState(new ThrowState_Robot(ownerPlayer));
+        }
     }
    
 }

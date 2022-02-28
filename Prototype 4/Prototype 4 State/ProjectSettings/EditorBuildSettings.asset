@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ExampleScene.unity
-    guid: 12dd7bb27c47ea1458c8d4ecd98af2cc
+    path: Assets/Scenes/BrightDay.unity
+    guid: 106025b4713992744bb2e8999d6a3608
   - enabled: 1
-    path: Assets/test.unity
-    guid: 3c48b486f2a792747a5105c0b3f5c7ed
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

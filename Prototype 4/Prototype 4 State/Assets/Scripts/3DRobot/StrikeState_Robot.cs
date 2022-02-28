@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class StrikeState_Robot : IState_Robot
 {
-    float strikeSpeed = -100.0f;
+    float strikeSpeed = -10000.0f;
     public StrikeState_Robot(PlayerMovement i_player) : base(i_player)
     {
-        ownerPlayer.verticalVel = strikeSpeed;
+        ownerPlayer.verticalVel = strikeSpeed * Time.fixedDeltaTime;
     }
 
     public override void Handle(KeyCode input = KeyCode.None)

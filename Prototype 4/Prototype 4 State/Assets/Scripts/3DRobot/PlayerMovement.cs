@@ -25,6 +25,12 @@ public class PlayerMovement : MonoBehaviour
 	[SerializeField]
 	private GameObject fireBolt;
 
+	[SerializeField]
+	private GameObject fireBullet;
+
+	[SerializeField]
+	private GameObject fireWhenSpawned;
+
 	// Finite State Machine
 	IState_Robot state;
 
@@ -33,12 +39,19 @@ public class PlayerMovement : MonoBehaviour
     {
 		state = new StandingState_Robot(this);
 		mainCam = Camera.main;
-		anim = GetComponent<Animator>(); 
+		anim = GetComponent<Animator>();
+
+		Instantiate(fireWhenSpawned, transform);
     }
 
     // Update is called once per frame
     void Update()
     {
+		if(Input.GetKeyDown(KeyCode.Escape))
+		{
+			Application.Quit();
+		}
+
 		inputX = Input.GetAxis("Horizontal");
 		inputZ = Input.GetAxis("Vertical");
 
@@ -60,6 +73,12 @@ public class PlayerMovement : MonoBehaviour
 		Vector3 moveVector = new Vector3(0, verticalVel * .2f * Time.deltaTime, 0);
 		GetComponent<CharacterController>().Move(moveVector);
 
+
+		mainCam.transform.position = new Vector3(transform.position.x + 8.0f,
+			transform.position.y + 8.0f,
+			transform.position.z + 3.0f);
+
+
 		state.Handle();
 	}
 
@@ -74,12 +93,6 @@ public class PlayerMovement : MonoBehaviour
 				PlayerMoveAndRotation();
 			}
 		}
-
-
-		//else if (speed < allowPlayerRotation)
-		//{
-		//	//anim.SetFloat("Blend", speed, StopAnimTime, Time.deltaTime);
-		//}
 	}
 
 	void PlayerMoveAndRotation()
@@ -124,5 +137,10 @@ public class PlayerMovement : MonoBehaviour
 	public void SpawnFireBolt()
 	{
 		Instantiate(fireBolt, transform.localPosition, transform.rotation);
+	}
+
+	public void SpawnFireBullet()
+	{
+		Instantiate(fireBullet, transform.localPosition, transform.rotation);
 	}
 }

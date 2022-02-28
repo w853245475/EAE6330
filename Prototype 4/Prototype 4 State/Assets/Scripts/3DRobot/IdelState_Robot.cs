@@ -17,5 +17,10 @@ public class IdleState_Robot : IState_Robot
             ownerPlayer.GetAnimator().SetFloat("Velocity", 3.0f);
             ownerPlayer.SetState(new WalkState_Robot(ownerPlayer));
         }
+
+        if(ownerPlayer.GetController().isGrounded && Input.GetKeyDown(KeyCode.F))
+        {
+            ownerPlayer.SetState(new ThrowState_Robot(ownerPlayer));
+        }
     }
 }
